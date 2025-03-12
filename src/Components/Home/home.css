@@ -1,0 +1,222 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Data Section */
+.data {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+
+.data img {
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.data1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.059);
+    padding: 8px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.data1 p {
+    margin-bottom: 10px;
+}
+
+.advanced {
+    text-decoration: none;
+    color: black;
+}
+
+.data2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px 20px;
+}
+
+.data2 p {
+    margin-bottom: 15px;
+}
+
+.data3 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.peter {
+    font-size: 28px;
+    color: rgb(111, 111, 236);
+    margin-top: 30px;
+}
+
+.peter1 {
+    font-size: 17px;
+}
+
+.peter1 p a {
+    color: rgb(1, 1, 247);
+}
+
+.data4 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: rgb(111, 111, 236);
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.data4 a {
+    color: rgb(111, 111, 236);
+}
+
+.data5 {
+    font-size: 17px;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.data5 p {
+    margin-bottom: 15px;
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    padding: 0 20px;
+}
+
+.short {
+    color: black;
+    font-size: 25px;
+}
+
+.data6 {
+    background-color: rgb(226, 217, 217);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 90px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.data6 p {
+    color: black;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+.data6 p a {
+    color: black;
+    font-size: 19px;
+}
+
+.data7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 211, 189);
+    flex-direction: column;
+    padding: 20px;
+}
+
+.data7 p {
+    font-size: 18px;
+    margin: 30px 10px;
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .data {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .data img {
+        margin-bottom: 0;
+        margin-right: 30px;
+    }
+
+    .data1, .data2 {
+        width: 50%;
+    }
+
+    .data3 {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sub {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .data6 {
+        padding: 20px 50px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .data {
+        padding: 0 50px;
+    }
+
+    .data1, .data2 {
+        max-width: 800px;
+    }
+
+    .data3 {
+        padding: 10px 45px;
+    }
+
+    .data4 {
+        margin-left: 170px;
+        text-align: left;
+    }
+
+    .data5 {
+        margin-left: 170px;
+        margin-right: 170px;
+        text-align: left;
+    }
+
+    .sub {
+        margin-right: 180px;
+    }
+
+    .data6 {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+}

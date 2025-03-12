@@ -1,0 +1,172 @@
+.pub {
+    margin: 10% 10% 0 10%;
+}
+
+.pub1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.pub3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(111, 111, 236);
+}
+
+.pub1 a {
+    color: black;
+    font-size: 1.2rem;
+    margin-right: 5%;
+}
+
+.pub4 {
+    margin-bottom: 5%;
+}
+
+.pub4 p {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.pub4 p a {
+    color: black;
+    text-decoration: none;
+}
+
+.publi1
+{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 50px;
+    /* flex-wrap: wrap; */
+    text-align: center;
+}
+.publi2,
+.publi3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 10px 5%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.publi1 img {
+    margin-right: 30px;
+    height: 150px;
+    width: auto;
+}
+
+.publi1 a,
+.publi2 a,
+.publi3 a {
+    color: black;
+    font-size: 1rem;
+}
+
+.publi1 p,
+.publi3 {
+    font-size: 1.1rem;
+}
+
+.pub0 {
+    margin-bottom: 5%;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .pub {
+        margin: 8% 5%;
+    }
+
+    .pub3 {
+        font-size: 1.8rem;
+    }
+
+    .pub1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pub1 a {
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+
+    .publi1 img {
+        margin-right: 0;
+        margin-bottom: 15px;
+        height: 120px;
+    }
+
+    .publi1,
+    .publi2,
+    .publi3 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .publi1 p,
+    .publi3 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pub {
+        margin: 5% 3%;
+    }
+
+    .pub3 {
+        font-size: 1.5rem;
+    }
+
+    .pub4 p {
+        font-size: 0.9rem;
+    }
+
+    .pub1 a {
+        font-size: 0.9rem;
+    }
+
+    .publi1 img {
+        height: 100px;
+    }
+
+    .publi1 p,
+    .publi3 {
+        font-size: 0.95rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .pub {
+        margin: 5% 2%;
+    }
+
+    .pub3 {
+        font-size: 1.3rem;
+    }
+
+    .pub1 {
+        text-align: center;
+    }
+
+    .pub1 a {
+        font-size: 0.85rem;
+        margin: 8px 0;
+    }
+
+    .publi1 img {
+        height: 80px;
+    }
+
+    .publi1 p,
+    .publi3 {
+        font-size: 0.9rem;
+    }
+}

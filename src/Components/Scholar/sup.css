@@ -1,0 +1,84 @@
+.stud {
+    margin: 180px auto 40px auto;
+    padding: 20px;
+    max-width: 90%;
+}
+
+/* Section Headers */
+.student1 {
+    font-size: 28px;
+    color: rgb(111, 111, 236);
+    margin: 60px 0 40px 0;
+    font-weight: bold;
+}
+
+/* Name Headers */
+.student2 {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Description */
+.student3 {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+/* Wrapper for Each Section */
+.studs {
+    margin-bottom: 40px;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 1024px) {
+    .stud {
+        margin: 100px auto;
+        padding: 15px;
+    }
+    .student1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .student2 {
+        font-size: 18px;
+    }
+    .student3 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .stud {
+        margin: 80px auto;
+        padding: 10px;
+    }
+    .student1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .student2 {
+        font-size: 17px;
+    }
+    .student3 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .stud {
+        margin: 60px auto;
+        padding: 10px;
+    }
+    .student1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .student2 {
+        font-size: 16px;
+    }
+    .student3 {
+        font-size: 13px;
+    }
+}
