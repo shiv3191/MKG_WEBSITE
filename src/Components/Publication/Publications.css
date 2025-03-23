@@ -4,6 +4,7 @@
 
 .pub1 {
     display: flex;
+    
     justify-content: space-between;
     margin-bottom: 40px;
     flex-wrap: wrap;
@@ -14,7 +15,9 @@
     font-weight: bold;
     color: rgb(111, 111, 236);
 }
-
+.publ1{
+    margin-bottom: 100px;
+}
 .pub1 a {
     color: black;
     font-size: 1.2rem;
