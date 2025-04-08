@@ -1,0 +1,85 @@
+/* Container for the entire positions section */
+.positions-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Georgia", serif;
+    line-height: 1.6;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Heading container with white background */
+.positions-heading {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(111, 111, 236);
+    padding: 20px;
+    background: white;
+    margin: 0;
+}
+
+/* Section background */
+.positions-section {
+    background-color: #e4e1dd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+/* List styling */
+.positions-section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.positions-section ul li {
+    font-size: 1rem;
+    color: #1a365d;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Link styling */
+.positions-section a {
+    color: #0056b3;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.positions-section a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .positions-container {
+        padding: 0 15px;
+    }
+    
+    .positions-heading {
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+    
+    .positions-section {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .positions-heading {
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+    
+    .positions-section ul li {
+        font-size: 0.9rem;
+    }
+}
+
+/* Consistent spacing class */
+.mt100 {
+    margin-top: 100px;
+}

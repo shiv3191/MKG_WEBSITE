@@ -1,0 +1,98 @@
+/* Container for the entire teaching section */
+.teaching-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Georgia", serif;
+    line-height: 1.6;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Heading container with white background */
+.teaching-heading {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(111, 111, 236);
+    padding: 20px;
+    background: white;
+    margin: 0;
+}
+
+/* Section background */
+.teaching-section {
+    background-color: #e4e1dd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+/* List styling */
+.teaching-section ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-left: 5%;
+}
+
+.teaching-section ul li {
+    font-size: 1rem;
+    color: #1a365d;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* Course code styling */
+.teaching-section ul li {
+    position: relative;
+}
+
+.teaching-section ul li::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 8px 0;
+    opacity: 0.3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .teaching-container {
+        padding: 0 15px;
+    }
+    
+    .teaching-heading {
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+    
+    .teaching-section ul {
+        margin-left: 0;
+    }
+    
+    .teaching-section {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .teaching-heading {
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+    
+    .teaching-section ul li {
+        font-size: 0.9rem;
+    }
+    
+    .teaching-section ul li::after {
+        margin: 5px 0;
+    }
+}
+
+/* Consistent spacing class */
+.mt100 {
+    margin-top: 100px;
+}

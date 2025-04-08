@@ -1,0 +1,121 @@
+nav{
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 8px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head p{
+    font-size: 25px;
+}
+
+nav img{
+    height: 80px;
+    margin-right: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+/* Make links white and remove text decoration */
+nav ul li a {
+    color: white;
+    text-decoration: none; /* Remove underline */
+}
+
+/* Add a hover effect to make the text slightly more visible when hovered */
+nav ul li a:hover {
+    color: #ccc;
+}
+
+.btn{
+    background: #fff;
+    color: #212121;
+    padding: 14px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+}
+
+.dark-nav{
+    background: #333;
+    transition: 0.5s;
+}
+
+.menu-icon{
+    display: none;
+}
+
+/* ......media query.......... */
+
+@media (max-width:910px) and (min-width:750px){
+    nav img{
+        height: 50px;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 4px 14px;
+        font-size: 15px;
+    }
+    .btn{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:750px){
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: #333;
+        z-index: -1;
+        width: 200px;
+        padding-top: 70px;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px 40px;
+        font-size: 15px;
+    }
+    .btn{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .menu-icon{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+    .hide-menu-icon{
+        right: -200px;
+    }
+    nav img{
+        height: 50px;
+    }
+}
