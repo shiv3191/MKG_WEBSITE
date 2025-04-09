@@ -31,8 +31,16 @@
     background: rgb(111, 111, 236);
 }
 
-/* Publication Cards */
-.publi1, .publi2, .publi3 {
+/* Publication Cards Container */
+.publ1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+/* Individual Publication Cards */
+.publi1 {
+    display: flex;
     margin-bottom: 30px;
     padding: 25px;
     background-color: #ffffff;
@@ -42,54 +50,69 @@
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-/* Books Section */
-.publ1 .publi1 {
-    background-color: #f6f9ff;
+/* Image Container */
+.publi1 > div {
+    flex-shrink: 0;
+    margin-right: 30px;
 }
 
-/* Selected Publications */
-.pub4 .publi1 {
-    background-color: #f5f8fe;
+/* Publication Images */
+.publi1 img {
+    height: 150px;
+    width: auto;
+    max-width: 120px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
 }
 
-/* ASCE Publications */
-.pub1 + .pub4 .publi1 {
-    background-color: #f0f5ff;
-}
-
-/* Book Chapters */
-.pub3:has(+ .pub4) + .pub4 .publi1 {
-    background-color: #ebf2ff;
-}
-
-/* Patent Section */
-.pub1:has(.pub3) + .pub4 {
-    background-color: #f0f7f5;
-}
-
-/* Hover Effects */
-.publi1:hover, .publi2:hover, .publi3:hover {
-    transform: translateX(8px);
-    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-    background-color: #e8f0ff;
-}
-
-/* Text Styling */
-.publi1 p, .publi2 p, .publi3 p {
+/* Text Content */
+.publi1 p {
     margin: 0;
     font-size: 1.05rem;
     color: #444;
     line-height: 1.8;
 }
 
+/* Link Styling */
+.publi1 a {
+    color: #222;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    transition: all 0.2s ease;
+}
+
+.publi1 a:hover {
+    color: #3a5b96;
+    border-bottom-color: #3a5b96;
+}
+
+/* Hover Effects */
+.publi1:hover {
+    transform: translateX(8px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    background-color: #e8f0ff;
+}
+
+.publi1:hover img {
+    transform: scale(1.05);
+}
+
+/* Selected Publications List */
+.pub4 {
+    margin-top: 40px;
+}
+
 .pub4 p {
     font-size: 1.1rem;
     margin-bottom: 1.8rem;
     line-height: 1.8;
+    padding-left: 20px;
+    border-left: 3px solid #e1e8f0;
 }
 
-/* Link Styling */
-.publi1 a, .publi2 a, .publi3 a,
 .pub4 a {
     color: #222;
     text-decoration: none;
@@ -98,27 +121,12 @@
     transition: all 0.2s ease;
 }
 
-.publi1 a:hover, .publi2 a:hover, .publi3 a:hover,
 .pub4 a:hover {
     color: #3a5b96;
     border-bottom-color: #3a5b96;
 }
 
-/* Images */
-.publi1 img {
-    margin-right: 30px;
-    height: 160px;
-    width: auto;
-    border-radius: 6px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-}
-
-/* Section Wrappers */
-.pub0, .publ1, .pub4 {
-    margin-bottom: 70px;
-}
-
-/* Header Containers */
+/* Section Headers with Links */
 .pub1 {
     display: flex;
     justify-content: space-between;
@@ -128,7 +136,6 @@
     gap: 20px;
 }
 
-/* Google Scholar Links */
 .pub1 a {
     color: #1a56a1;
     font-size: 1.1rem;
@@ -142,6 +149,14 @@
 .pub1 a:hover {
     color: #0d47a1;
     text-decoration: underline;
+}
+
+/* Patent Section */
+.pub1 + .pub4 {
+    background-color: #f0f7f5;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 30px;
 }
 
 /* ===== Responsive Design ===== */
@@ -164,11 +179,11 @@
         margin-bottom: 35px;
     }
     
-    .publi1, .publi2, .publi3 {
+    .publi1 {
         padding: 20px;
     }
     
-    .publi1 p, .publi2 p, .publi3 p {
+    .publi1 p {
         font-size: 1rem;
     }
     
@@ -200,22 +215,30 @@
         gap: 15px;
     }
     
-    .publi1, .publi2, .publi3 {
+    .publi1 {
         padding: 18px;
+        flex-direction: column;
     }
     
-    .publi1 p, .publi2 p, .publi3 p {
+    .publi1 > div {
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .publi1 img {
+        height: 180px;
+        max-width: 150px;
+        margin: 0 auto;
+    }
+    
+    .publi1 p {
         font-size: 0.95rem;
     }
     
     .pub4 p {
         font-size: 1rem;
         margin-bottom: 1.4rem;
-    }
-    
-    .publi1 img {
-        height: 120px;
-        margin-right: 20px;
     }
 }
 
@@ -230,12 +253,11 @@
         margin-bottom: 25px;
     }
     
-    .publi1, .publi2, .publi3 {
-        flex-direction: column;
+    .publi1 {
         padding: 16px;
     }
     
-    .publi1 p, .publi2 p, .publi3 p {
+    .publi1 p {
         font-size: 0.9rem;
     }
     
@@ -245,15 +267,30 @@
     }
     
     .publi1 img {
-        height: 100px;
-        margin-right: 0;
-        margin-bottom: 15px;
-        width: 100%;
-        max-width: 200px;
-        object-fit: cover;
+        height: 150px;
+        max-width: 120px;
     }
     
     .pub1 a {
         font-size: 1rem;
     }
+}
+
+/* Special styling for first 10 cards with images */
+.publ1 .publi1:nth-child(-n+10) {
+    background-color: #f6f9ff;
+}
+
+.publ1 .publi1:nth-child(-n+10):hover {
+    background-color: #e0e9ff;
+}
+
+/* Adjust spacing between sections */
+.pub0, .publ1, .pub4 {
+    margin-bottom: 70px;
+}
+
+/* Add some padding to the main container */
+.pub > div:first-child {
+    padding-top: 20px;
 }
