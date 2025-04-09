@@ -1,84 +1,117 @@
-.stud {
+.supervision-container {
+    max-width: 1200px;
     margin: 180px auto 40px auto;
     padding: 20px;
-    max-width: 90%;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    
 }
 
-/* Section Headers */
-.student1 {
-    font-size: 28px;
-    color: rgb(111, 111, 236);
-    margin: 60px 0 40px 0;
-    font-weight: bold;
-}
-
-/* Name Headers */
-.student2 {
-    font-size: 20px;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-/* Description */
-.student3 {
-    font-size: 16px;
-    margin-top: 10px;
-    line-height: 1.5;
-}
-
-/* Wrapper for Each Section */
-.studs {
+.supervision-header {
+    text-align: center;
     margin-bottom: 40px;
+}
+
+.supervision-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.supervision-section {
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #c2d1cd;
+    border-radius: 8px;
+}
+
+.section-title {
+    font-size: 23px;
+    color: rgb(111, 111, 236);
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.student-card {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eee;
+}
+
+.student-card:last-child {
+    border-bottom: none;
+}
+
+.student-name {
+    font-size: 20px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.student-details {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #555;
 }
 
 /* Responsive Adjustments */
 @media screen and (max-width: 1024px) {
-    .stud {
+    .supervision-container {
         margin: 100px auto;
         padding: 15px;
     }
-    .student1 {
+    
+    .section-title {
         font-size: 24px;
-        margin-bottom: 30px;
     }
-    .student2 {
+    
+    .student-name {
         font-size: 18px;
     }
-    .student3 {
+    
+    .student-details {
         font-size: 15px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .stud {
+    .supervision-container {
         margin: 80px auto;
         padding: 10px;
     }
-    .student1 {
+    
+    .section-title {
         font-size: 22px;
-        margin-bottom: 20px;
     }
-    .student2 {
+    
+    .student-name {
         font-size: 17px;
     }
-    .student3 {
+    
+    .student-details {
         font-size: 14px;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .stud {
+    .supervision-container {
         margin: 60px auto;
         padding: 10px;
     }
-    .student1 {
-        font-size: 20px;
-        margin-bottom: 15px;
+    
+    .supervision-header h1 {
+        font-size: 2rem;
     }
-    .student2 {
+    
+    .section-title {
+        font-size: 20px;
+    }
+    
+    .student-name {
         font-size: 16px;
     }
-    .student3 {
+    
+    .student-details {
         font-size: 13px;
     }
 }
