@@ -41,98 +41,97 @@ const Publications = () => {
             </p>
           </div> */}
           <div className="publ1">
+            <div className="publi1">
+              <p>
+                1. <b>Manish Kumar Goyal</b>, Key Biodiversity Areas:
+                Technology–policy Interface for Combating Forest Loss and Fires,
+                2024, In Press, ISBN: 978-3-031-72014-7. Springer
+              </p>
+            </div>
 
-          <div className="publi1">
-            <p>
-              1. <b>Manish Kumar Goyal</b>, Key Biodiversity Areas:
-              Technology–policy Interface for Combating Forest Loss and Fires,
-              2024, In Press, ISBN: 978-3-031-72014-7. Springer
-            </p>
-          </div>
+            <div className="publi1">
+              <p>
+                2. <b>Manish Kumar Goyal</b>, AI Innovation for Water Policy and
+                Sustainability, 2024, ISBN: 978-3-031-66758-9,{" "}
+                <a href="https://doi.org/10.1007/978-3-031-66758-9">
+                  https://doi.org/10.1007/978-3-031-66758-9
+                </a>
+                . Springer
+              </p>
+            </div>
 
-          <div className="publi1">
-            <p>
-              2. <b>Manish Kumar Goyal</b>, AI Innovation for Water Policy and
-              Sustainability, 2024, ISBN: 978-3-031-66758-9,{" "}
-              <a href="https://doi.org/10.1007/978-3-031-66758-9">
-                https://doi.org/10.1007/978-3-031-66758-9
-              </a>
-              . Springer
-            </p>
-          </div>
+            <div className="publi1">
+              <p>
+                3. <b>Manish Kumar Goyal</b>, Aerosol Atmospheric Rivers:
+                Availability, Spatiotemporal Characterisation, Predictability,
+                and Impacts, 2024,{" "}
+                <a href="http://dx.doi.org/10.1007/978-3-031-63478-9">
+                  http://dx.doi.org/10.1007/978-3-031-63478-9
+                </a>
+                . Springer
+              </p>
+            </div>
 
-          <div className="publi1">
-            <p>
-              3. <b>Manish Kumar Goyal</b>, Aerosol Atmospheric Rivers:
-              Availability, Spatiotemporal Characterisation, Predictability, and
-              Impacts, 2024,{" "}
-              <a href="http://dx.doi.org/10.1007/978-3-031-63478-9">
-                http://dx.doi.org/10.1007/978-3-031-63478-9
-              </a>
-              . Springer
-            </p>
-          </div>
+            <div className="publi1">
+              <p>
+                4. <b>Manish Kumar Goyal</b>, Understanding Atmospheric Rivers
+                Using Machine Learning, 2024,{" "}
+                <a href="https://doi.org/10.1007/978-981-99-3687-8">
+                  https://doi.org/10.1007/978-981-99-3687-8
+                </a>
+                . Springer
+              </p>
+            </div>
 
-          <div className="publi1">
-            <p>
-              4. <b>Manish Kumar Goyal</b>, Understanding Atmospheric Rivers
-              Using Machine Learning, 2024,{" "}
-              <a href="https://doi.org/10.1007/978-981-99-3687-8">
-                https://doi.org/10.1007/978-981-99-3687-8
-              </a>
-              . Springer
-            </p>
-          </div>
+            <div className="publi1">
+              <p>
+                5. <b>Manish Kumar Goyal</b>, Ecosystem Restoration: Towards
+                Sustainability and Resilient Development, 2023, ISBN:
+                978-981-19-0725-8. Springer
+              </p>
+            </div>
 
-          <div className="publi1">
-            <p>
-              5. <b>Manish Kumar Goyal</b>, Ecosystem Restoration: Towards
-              Sustainability and Resilient Development, 2023, ISBN:
-              978-981-19-0725-8. Springer
-            </p>
-          </div>
+            <div className="publi1">
+              <p>
+                6. <b>Manish Kumar Goyal</b>, Hydro-Meteorological Extremes and
+                Disasters, October 2022, Pages 1-300. Springer
+              </p>
+            </div>
 
-          <div className="publi1">
-            <p>
-              6. <b>Manish Kumar Goyal</b>, Hydro-Meteorological Extremes and
-              Disasters, October 2022, Pages 1-300. Springer
-            </p>
-          </div>
+            <div className="publi1">
+              <p>
+                7. <b>Manish Kumar Goyal</b>, Sustainability: Fundamentals and
+                applications, June 2020, Volume 1. John Wiley & Sons
+              </p>
+            </div>
 
-          <div className="publi1">
-            <p>
-              7. <b>Manish Kumar Goyal</b>, Sustainability: Fundamentals and
-              applications, June 2020, Volume 1. John Wiley & Sons
-            </p>
-          </div>
+            <div className="publi1">
+              <p>
+                8. <b>Manish Kumar Goyal</b>, Integrated Risk of Pandemic:
+                Covid-19 Impacts, Resilience and Recommendations, November 2020,
+                Pages 1-496,{" "}
+                <a href="https://doi.org/10.1007/978-981-15-7679-9">
+                  https://doi.org/10.1007/978-981-15-7679-9
+                </a>
+                . Springer
+              </p>
+            </div>
 
-          <div className="publi1">
-            <p>
-              8. <b>Manish Kumar Goyal</b>, Integrated Risk of Pandemic:
-              Covid-19 Impacts, Resilience and Recommendations, November 2020,
-              Pages 1-496,{" "}
-              <a href="https://doi.org/10.1007/978-981-15-7679-9">
-                https://doi.org/10.1007/978-981-15-7679-9
-              </a>
-              . Springer
-            </p>
-          </div>
+            <div className="publi1">
+              <p>
+                9. <b>Manish Kumar Goyal</b>, Engineering Hydrology, January
+                2017, Volume 1, Pages 356, ISBN: 978-81-203-5243-8. PHI Learning
+                Pvt. Ltd., New Delhi, India
+              </p>
+            </div>
 
-          <div className="publi1">
-            <p>
-              9. <b>Manish Kumar Goyal</b>, Engineering Hydrology, January 2017,
-              Volume 1, Pages 356, ISBN: 978-81-203-5243-8. PHI Learning Pvt.
-              Ltd., New Delhi, India
-            </p>
-          </div>
-
-          <div className="publi1">
-            <p>
-              10. <b>Manish Kumar Goyal</b>, Fluid Mechanics and Hydraulic
-              Machines, January 2015, Volume 1, Pages 792, ISBN:
-              978-81-203-5117-2. PHI Learning Pvt. Ltd., New Delhi, India
-            </p>
-          </div>
+            <div className="publi1">
+              <p>
+                10. <b>Manish Kumar Goyal</b>, Fluid Mechanics and Hydraulic
+                Machines, January 2015, Volume 1, Pages 792, ISBN:
+                978-81-203-5117-2. PHI Learning Pvt. Ltd., New Delhi, India
+              </p>
+            </div>
           </div>
 
           <div className="pub1">
@@ -161,289 +160,1243 @@ const Publications = () => {
         </div>
         <div className="pub4">
           <p>
-            1) Dubey, S., and <b>Goyal Manish Kumar</b> (2020) conducted a study
-            on Glacial Lake Outburst Flood (GLOF) Hazard, Downstream Impact, and
-            Risk over the Indian Himalayas, published in Water Resources
-            Research with an Impact Factor of 4.14.
+            1) Rautela, K. S., Goyal, M. K. (2025). Spatio-temporal analysis of
+            extreme air pollution and risk assessment. Journal of Environmental
+            Management, doi:{" "}
+            <a href="https://doi.org/10.1016/j.jenvman.2024.123807">
+              https://doi.org/10.1016/j.jenvman.2024.123807
+            </a>
+            .
+          </p>
+          <p>
+            2) Nargund, R., Rautela, K. S., Goyal, M. K., Sinha, N. K., Mohanty,
+            M., Bhatia, V. S. (2025). Assessing soybean yield in Madhya Pradesh
+            by using a multi-model approach. Field Crops Research, doi:{" "}
+            <a href="https://doi.org/10.1016/j.fcr.2024.109716">
+              https://doi.org/10.1016/j.fcr.2024.109716
+            </a>
+            .
+          </p>
+          <p>
+            3) Kumar, R., Goyal, M. K. (2024). Role of AI&ML in Modernizing
+            Water and Wastewater Treatment Processes. Environmental Science and
+            Pollution Research, doi:{" "}
+            <a href="https://doi.org/10.1007/s11270-024-07618-z">
+              https://doi.org/10.1007/s11270-024-07618-z
+            </a>
+            .
+          </p>
+          <p>
+            4) Goyal, M. K., Rakkasagi, S., Surampalli, R. Y., Zhang, T. C.,
+            Erumalla, S., Gupta, A., Dubey, S., U-tapao, C. (2024). Enhancing
+            Sustainable Development through Spatiotemporal Analysis of Ramsar
+            Wetland Sites in South Asia. Technological Forecasting and Social
+            Change, doi:{" "}
+            <a href="https://doi.org/10.1016/j.techsoc.2024.102723">
+              https://doi.org/10.1016/j.techsoc.2024.102723
+            </a>
+            .
+          </p>
+          <p>
+            5) Kumar, R., Mishra, A., Goyal, M. K. (2024). Wastewater management
+            policies: a perspective and roadmap for India. Current Science, doi:{" "}
+            <a href="http://dx.doi.org/10.18520/cs/v127/i7/795-807">
+              http://dx.doi.org/10.18520/cs/v127/i7/795-807
+            </a>
+            .
+          </p>
+          <p>
+            6) Kumar, N., Goyal, M. K. (2024). Projected changes in monsoonal
+            compound dry-hot extremes in India. Atmospheric Research, doi:{" "}
+            <a href="https://doi.org/10.1016/j.atmosres.2024.107605">
+              https://doi.org/10.1016/j.atmosres.2024.107605
+            </a>
+            .
+          </p>
+          <p>
+            7) Kumar, R., Goyal, M. K., Surampalli, R. Y., Zhang, T. C. (2024).
+            River pollution in India: exploring regulatory and remedial paths.
+            Environmental Monitoring and Assessment, doi:{" "}
+            <a href="https://doi.org/10.1007/s10098-024-02763-9">
+              https://doi.org/10.1007/s10098-024-02763-9
+            </a>
+            .
+          </p>
+          <p>
+            8) Kumar, N., Goyal, M. K. (2024). Transforming air pollution
+            management in India with AI and machine learning technologies.
+            Scientific Reports, doi:{" "}
+            <a href="https://doi.org/10.1038/s41598-024-71269-7">
+              https://doi.org/10.1038/s41598-024-71269-7
+            </a>
+            .
+          </p>
+          <p>
+            9) Kumar, R., Mishra, A., Goyal, M. K. (2024). Water neutrality:
+            Concept, challenges, policies, and recommendations. Groundwater for
+            Sustainable Development, doi:{" "}
+            <a href="https://doi.org/10.1016/j.gsd.2024.101306">
+              https://doi.org/10.1016/j.gsd.2024.101306
+            </a>
+            .
+          </p>
+          <p>
+            10) Rautela, K. S., Singh, S., Goyal, M. K. (2024). Aerosol
+            atmospheric rivers: patterns, impacts, and societal insights.
+            Environmental Science and Pollution Research, doi:{" "}
+            <a href="https://doi.org/10.1007/s11356-024-34625-8">
+              https://doi.org/10.1007/s11356-024-34625-8
+            </a>
+            .
+          </p>
+          <p>
+            11) Rautela, K. S., Singh, S., Goyal, M. K. (2024). Resilience to
+            Air Pollution: A Novel Approach for Detecting and Predicting Aerosol
+            Atmospheric Rivers within Earth System Boundaries. Earth Systems and
+            Environment, doi:{" "}
+            <a href="https://doi.org/10.1007/s41748-024-00421-0">
+              https://doi.org/10.1007/s41748-024-00421-0
+            </a>
+            .
+          </p>
+          <p>
+            12) Rautela, K. S., Kuniyal, J. C., Goyal, M. K., Kanwar, N., Bhoj,
+            A. S. (2024). Assessment and modelling of hydro-sedimentological
+            flows of the eastern river Dhauliganga, north-western Himalaya,
+            India. Earth System Dynamics Discussions, doi:{" "}
+            <a href="https://doi.org/10.1007/s11069-024-06413-7">
+              https://doi.org/10.1007/s11069-024-06413-7
+            </a>
+            .
+          </p>
+          <p>
+            13) Rakkasagi, S., Goyal, M. K., Jha, S. (2024). Evaluating the
+            future risk of coastal Ramsar wetlands in India to extreme rainfalls
+            using fuzzy logic. Journal of Hydrology, doi:{" "}
+            <a href="https://doi.org/10.1016/j.jhydrol.2024.130869">
+              https://doi.org/10.1016/j.jhydrol.2024.130869
+            </a>
+            .
+          </p>
+          <p>
+            14) Singh, S., Goyal, M. K., Saikumar, E. (2024). Assessing Climate
+            Vulnerability of Ramsar Wetlands through CMIP6 Projections. Climatic
+            Change.
+          </p>
+          <p>
+            15) Dubey, S., Sattar, A., Gupta, V., Goyal, M. K., Haritashya, U.
+            K., Kargel, J. S. (2024). Transboundary hazard and downstream impact
+            of glacial lakes in Hindu-Kush Karakoram Himalayas. Science of The
+            Total Environment.
+          </p>
+          <p>
+            16) Rautela, K. S., Singh, S., Goyal, M. K. (2024). Characterizing
+            the spatiotemporal distribution, detection, and prediction of
+            aerosol atmospheric rivers on a global scale.
+          </p>
+          <p>
+            17) Singh, S., Yadav, A., Goyal, M. K. (2024). Univariate and
+            bivariate spatiotemporal characteristics of heat waves and relative
+            influence of large-scale climate oscillations over India.
+          </p>
+          <p>
+            18) Prajapati, R. N., Ibrahim, N., Goyal, M. K., Thapa, B. R.,
+            Maharjan, K. R. (2023). Ground water availability assessment for a
+            data-scarce river basin in Nepal using SWAT hydrological model.
+            Water Supply, doi:{" "}
+            <a href="https://doi.org/10.2166/ws.2023.332">
+              https://doi.org/10.2166/ws.2023.332
+            </a>
+            .
+          </p>
+          <p>
+            19) Meghani, S., Singh, S., Kumar, N., Goyal, M. K. (2023).
+            Predicting the spatiotemporal characteristics of atmospheric rivers:
+            A novel data-driven approach. Global and Planetary Change, doi:{" "}
+            <a href="https://doi.org/10.1016/j.gloplacha.2023.104295">
+              https://doi.org/10.1016/j.gloplacha.2023.104295
+            </a>
+            .
+          </p>
+          <p>
+            20) Shakya, D., Deshpande, V., Goyal, M. K., Agarwal, M. (2023).
+            PM2.5 air pollution prediction through deep learning using
+            meteorological, vehicular, and emission data: A case study of New
+            Delhi, India. Journal of Cleaner Production, doi:{" "}
+            <a href="https://doi.org/10.1016/j.jclepro.2023.139278">
+              https://doi.org/10.1016/j.jclepro.2023.139278
+            </a>
+            .
+          </p>
+          <p>
+            21) Goyal, M. K., Rakkasagi, S., Shaga, S., Zhang, T. C.,
+            Surampalli, R. Y., Dubey, S. (2023). Spatiotemporal-based automated
+            inundation mapping of Ramsar wetlands using Google Earth Engine.
+            Scientific Reports, doi:{" "}
+            <a href="https://doi.org/10.1038/s41598-023-43910-4">
+              https://doi.org/10.1038/s41598-023-43910-4
+            </a>
+            .
+          </p>
+          <p>
+            22) Dubey, S., Sattar, A., Goyal, M. K., Allen, S., Frey, H.,
+            Haritashya, U. K., Huggel, C. (2023). Mass Movement Hazard and
+            Exposure in the Himalaya. Earths Future, doi:{" "}
+            <a href="https://doi.org/10.1029/2022EF003253">
+              https://doi.org/10.1029/2022EF003253
+            </a>
+            .
+          </p>
+          <p>
+            23) Goyal, M. K., Singh, S., Jain, V. (2023). Heat waves
+            characteristics intensification across Indian smart cities.
+            Scientific Reports, doi:{" "}
+            <a href="https://doi.org/10.1038/s41598-023-41968-8">
+              https://doi.org/10.1038/s41598-023-41968-8
+            </a>
+            .
+          </p>
+          <p>
+            24) Goyal, M. K., Gupta, A. K., Das, J., Jain, V., Rakkasagi, S.
+            (2023). Heatwave magnitude impact over Indian cities: CMIP 6
+            projections. Theoretical and Applied Climatology, doi:{" "}
+            <a href="https://doi.org/10.1007/s00704-023-04599-7">
+              https://doi.org/10.1007/s00704-023-04599-7
+            </a>
+            .
+          </p>
+          <p>
+            25) Rakkasagi, S., Poonia, V., Goyal, M. K. (2023). Flash drought as
+            a new climate threat: drought indices, insights from India's study,
+            and implications for future research. Wiley Interdisciplinary
+            Reviews: Climate Change, doi:{" "}
+            <a href="https://doi.org/10.2166/wcc.2023.347">
+              https://doi.org/10.2166/wcc.2023.347
+            </a>
+            .
+          </p>
+          <p>
+            26) Kumar, N., Patel, P., Singh, S., Goyal, M. K. (2023).
+            Understanding non-stationarity of hydroclimatic extremes and
+            resilience in Peninsular catchments, India. Scientific Reports, doi:{" "}
+            <a href="https://doi.org/10.1038/s41598-023-38771-w">
+              https://doi.org/10.1038/s41598-023-38771-w
+            </a>
+            .
+          </p>
+          <p>
+            27) Goyal, M. K., Poonia, V., Jain, V. (2023). Three Decadal Urban
+            Drought Variability Risk Assessment for Indian Smart Cities. Journal
+            of Hydrology, doi:{" "}
+            <a href="https://doi.org/10.1016/j.jhydrol.2023.130056">
+              https://doi.org/10.1016/j.jhydrol.2023.130056
+            </a>
+            .
+          </p>
+          <p>
+            28) Singh, S., Goyal, M. K. (2023). Enhancing climate resilience in
+            businesses: The role of artificial intelligence. Journal of Cleaner
+            Production, doi:{" "}
+            <a href="https://doi.org/10.1016/j.jclepro.2023.138228">
+              https://doi.org/10.1016/j.jclepro.2023.138228
+            </a>
+            .
+          </p>
+          <p>
+            29) Singh, M. J., Choudhary, S., Chen, W. B., Wu, P. C., Goyal, M.
+            K., Rajput, A., Borana, L. (2023). Applications of Fibre Bragg
+            Grating Sensors for monitoring geotechnical structures: A
+            Comprehensive Review. Measurement, doi:{" "}
+            <a href="https://doi.org/10.1016/j.measurement.2023.113171">
+              https://doi.org/10.1016/j.measurement.2023.113171
+            </a>
+            .
+          </p>
+          <p>
+            30) Singh, S., Goyal, M. K. (2023). An innovative approach to
+            predict atmospheric rivers: Exploring convolutional autoencoder.
+            Atmospheric Research, doi:{" "}
+            <a href="https://doi.org/10.1016/j.atmosres.2023.106754">
+              https://doi.org/10.1016/j.atmosres.2023.106754
+            </a>
+            .
+          </p>
+          <p>
+            31) Singh, S., Kumar, N., Goyal, M. K., Jha, S. (2023). Relative
+            influence of ENSO, IOD, and AMO over spatiotemporal variability of
+            hydroclimatic extremes in Narmada basin, India. Aqua Water
+            Infrastructure Ecosystems and Society, doi:{" "}
+            <a href="https://doi.org/10.2166/aqua.2023.219">
+              https://doi.org/10.2166/aqua.2023.219
+            </a>
+            .
+          </p>
+          <p>
+            32) Singh, S., Goyal, M. K., Jha, S. (2022). Role of large-scale
+            climate oscillations in precipitation extremes associated with
+            atmospheric rivers: nonstationary framework. International Journal
+            of Climatology, doi:{" "}
+            <a href="https://doi.org/10.1080/02626667.2022.2159412">
+              https://doi.org/10.1080/02626667.2022.2159412
+            </a>
+            .
+          </p>
+          <p>
+            33) Goyal, M. K., Gupta, A. K., Jha, S., Rakkasagi, S., Jain, V.
+            (2022). Climate change impact on precipitation extremes over Indian
+            cities: Non-stationary analysis. Technological Forecasting and
+            Social Change, doi:{" "}
+            <a href="https://10.1016/j.techfore.2022.121685">
+              https://10.1016/j.techfore.2022.121685
+            </a>
+            .
+          </p>
+          <p>
+            34) Poonia, V., Goyal, M. K., Jha, S., Dubey, S. (2022). Terrestrial
+            Ecosystem Response to Flash Droughts over India. Journal of
+            Hydrology, doi:{" "}
+            <a href="https://doi.org/10.1016/j.jhydrol.2021.127402">
+              https://doi.org/10.1016/j.jhydrol.2021.127402
+            </a>
+            .
+          </p>
+          <p>
+            35) Abbasi, N. A., Hamrani, A., Madramootoo, C. A., Zhang, T., Tan,
+            C. S., Goyal, M. K. (2021). Modelling carbon dioxide emissions under
+            a maize-soy rotation using machine learning. Biosystems Engineering,
+            doi:{" "}
+            <a href="https://doi.org/10.1016/j.biosystemseng.2021.09.013">
+              https://doi.org/10.1016/j.biosystemseng.2021.09.013
+            </a>
+            .
+          </p>
+          <p>
+            36) Keesari, T., Goyal, M. K., Gupta, B., Kumar, N., Roy, A., Sinha,
+            U. K., Surampalli, R. Y., Zhang, T. C., Goyal, R. K. (2021). Big
+            data and environmental sustainability based integrated framework for
+            isotope hydrology applications in India. Energy, Technology and
+            Innovation, doi:{" "}
+            <a href="https://doi.org/10.1016/j.eti.2021.101889">
+              https://doi.org/10.1016/j.eti.2021.101889
+            </a>
+            .
+          </p>
+          <p>
+            37) Gupta, S., Goyal, M. K., Sarma, A. K. (2021). Assessment of
+            Hydroclimatological Changes in Eastern Himalayan River Catchment of
+            Northeast India. Journal of Hydrologic Engineering, doi:{" "}
+            <a href="https://doi.org/10.1061/(ASCE)HE.1943-5584.0002124">
+              https://doi.org/10.1061/(ASCE)HE.1943-5584.0002124
+            </a>
+            .
+          </p>
+          <p>
+            38) Hinge, G., Surampalli, R. Y., Goyal, M. K., Gupta, B. B., Chang,
+            X. (2021). Soil carbon and its associate resilience using big data
+            analytics: For food Security and environmental management.
+            Technological Forecasting and Social Change, doi:{" "}
+            <a href="https://doi.org/10.1016/j.techfore.2021.120823">
+              https://doi.org/10.1016/j.techfore.2021.120823
+            </a>
+            .
+          </p>
+          <p>
+            39) Dubey, S., Sharma, A., Panchariya, V. K., Goyal, M. K.,
+            Surampalli, R. Y., Zhang, T. C. (2021). Regional sustainable
+            development of renewable natural resources using Net Primary
+            Productivity on a global scale. Ecological Indicators, doi:{" "}
+            <a href="https://doi.org/10.1016/j.ecolind.2021.107768">
+              https://doi.org/10.1016/j.ecolind.2021.107768
+            </a>
+            .
+          </p>
+          <p>
+            40) Goswami, U. P., Goyal, M. K. (2021). Assessment of glacial lake
+            development and downstream flood impacts of critical glacial lake.
+            Natural Hazards, doi:{" "}
+            <a href="https://doi.org/10.1007/s11069-021-04866-8">
+              https://doi.org/10.1007/s11069-021-04866-8
+            </a>
+            .
+          </p>
+          <p>
+            41) Poonia, V., Goyal, M. K., Gupta, B. B., Gupta, A. K., Jha, S.,
+            Das, J. (2021). Drought occurrence in Different River Basins of
+            India and blockchain technology based framework for disaster
+            management. Journal of Cleaner Production, doi:{" "}
+            <a href="https://doi.org/10.1016/j.jclepro.2021.127737">
+              https://doi.org/10.1016/j.jclepro.2021.127737
+            </a>
+            .
+          </p>
+          <p>
+            42) Kumar, N., Goyal, M. K., Gupta, A. K., Jha, S., Das, J.,
+            Madramootoo, C. A. (2021). Joint behaviour of climate extremes
+            across India: Past and future. Journal of Hydrology, doi:{" "}
+            <a href="https://doi.org/10.1016/j.jhydrol.2021.126185">
+              https://doi.org/10.1016/j.jhydrol.2021.126185
+            </a>
+            .
+          </p>
+          <p>
+            43) Jha, S., Goyal, M. K., Gupta, B., Gupta, A. K. (2021). A novel
+            analysis of COVID 19 risk in India incorporating climatic and
+            socioeconomic Factors. Technological Forecasting and Social Change,
+            doi:{" "}
+            <a href="https://doi.org/10.1016/j.techfore.2021.120679">
+              https://doi.org/10.1016/j.techfore.2021.120679
+            </a>
+            .
+          </p>
+          <p>
+            44) Das, J., Goyal, M. K. (2021). Impact of climate change on crop
+            water and irrigation requirements over eastern Himalayan region.
+            Natural Hazards, doi:{" "}
+            <a href="https://doi.org/10.1007/s00477-020-01942-6">
+              https://doi.org/10.1007/s00477-020-01942-6
+            </a>
+            .
+          </p>
+          <p>
+            45) Jha, S., Goyal, M. K., Gupta, B. B., Hsu, C. H., Gilleland, E.,
+            Das, J. (2021). A methodological framework for extreme climate risk
+            assessment integrating satellite and location based data sets in
+            intelligent systems. International Journal of Climatology, doi:{" "}
+            <a href="https://doi.org/10.1002/int.22475">
+              https://doi.org/10.1002/int.22475
+            </a>
+            .
+          </p>
+          <p>
+            46) Dubey, S., Gupta, H., Goyal, M. K., Joshi, N. (2021). Evaluation
+            of precipitation datasets available on Google earth engine over
+            India. International Journal of Climatology, doi:{" "}
+            <a href="https://doi.org/10.1002/joc.7102">
+              https://doi.org/10.1002/joc.7102
+            </a>
+            .
+          </p>
+          <p>
+            47) Poonia, V., Jha, S., Goyal, M. K. (2021). Copula based analysis
+            of meteorological, hydrological and agricultural drought
+            characteristics across Indian river basins. International Journal of
+            Climatology, doi:{" "}
+            <a href="https://doi.org/10.1002/joc.7091">
+              https://doi.org/10.1002/joc.7091
+            </a>
+            .
+          </p>
+          <p>
+            48) Jha, S., Das, J., Goyal, M. K. (2021). Low frequency
+            global‐scale modes and its influence on rainfall extremes over
+            India: Nonstationary and uncertainty analysis. International Journal
+            of Climatology, doi:{" "}
+            <a href="https://doi.org/10.1002/joc.6935">
+              https://doi.org/10.1002/joc.6935
+            </a>
+            .
+          </p>
+          <p>
+            49) Singh, V., Jain, S. K., Goyal, M. K. (2021). An assessment of
+            snow-glacier melt runoff under climate change scenarios in the
+            Himalayan basin. Natural Hazards, doi:{" "}
+            <a href="https://doi.org/10.1007/s00477-021-01987-1">
+              https://doi.org/10.1007/s00477-021-01987-1
+            </a>
+            .
+          </p>
+          <p>
+            50) Grenon, G., Singh, B., Sena, A. D., Madramootoo, C. A., Sperber,
+            C. V., Goyal, M. K., Zhang, T. (2021). Phosphorus fate, transport
+            and management on subsurface drained agricultural organic soils: a
+            review. Environmental Research Letters, doi:{" "}
+            <a href="https://doi.org/10.1088/1748-9326/abce81">
+              https://doi.org/10.1088/1748-9326/abce81
+            </a>
+            .
+          </p>
+          <p>
+            51) Kumar, N., Poonia, V., Gupta, B. B., Goyal, M. K. (2020). A
+            novel framework for risk assessment and resilience of critical
+            infrastructure towards climate change. Technological Forecasting and
+            Social Change, doi:{" "}
+            <a href="https://doi.org/10.1016/j.techfore.2020.120532">
+              https://doi.org/10.1016/j.techfore.2020.120532
+            </a>
+            .
+          </p>
+          <p>
+            52) Kumar, N., Sinha, J., Madramootoo, C. A., Goyal, M. K. (2020).
+            Quantifying groundwater sensitivity and resilience over peninsular
+            India. Hydrological Processes, doi:{" "}
+            <a href="https://doi.org/10.1002/hyp.13945">
+              https://doi.org/10.1002/hyp.13945
+            </a>
+            .
+          </p>
+          <p>
+            53) Das, J., Poonia, V., Jha, S., Goyal, M. K. (2020). Understanding
+            the climate change impact on crop yield over Eastern Himalayan
+            Region: ascertaining GCM and scenario uncertainty. Theoretical and
+            Applied Climatology, doi:{" "}
+            <a href="https://doi.org/10.1007/s00704-020-03332-y">
+              https://doi.org/10.1007/s00704-020-03332-y
+            </a>
+            .
+          </p>
+          <p>
+            54) Sharma, A., Goyal, M. K. (2020). Assessment of drought trend and
+            variability in India using wavelet transform. International Journal
+            of Climatology, doi:{" "}
+            <a href="https://doi.org/10.1080/02626667.2020.1754422">
+              https://doi.org/10.1080/02626667.2020.1754422
+            </a>
+            .
+          </p>
+          <p>
+            55) Das, J., Jha, S., Goyal, M. K. (2020). On the relationship of
+            climatic and monsoon teleconnections with monthly precipitation over
+            meteorologically homogenous regions in India: Wavelet & global
+            coherence approaches. Atmospheric Research, doi:{" "}
+            <a href="https://doi.org/10.1016/j.atmosres.2020.104889">
+              https://doi.org/10.1016/j.atmosres.2020.104889
+            </a>
+            .
+          </p>
+          <p>
+            56) Dubey, S., Goyal, M. K. (2020). Glacial Lake Outburst Flood
+            (GLOF) Hazard, Downstream Impact, and Risk over the Indian
+            Himalayas. Water Resources Research, doi:{" "}
+            <a href="https://doi.org/10.1029/2019WR026533">
+              https://doi.org/10.1029/2019WR026533
+            </a>
+            .
+          </p>
+          <p>
+            57) Sinha, J., Goyal, M. K. (2020). Analysing model disparity in
+            diagnosing the climatic and human stresses on runoff variability
+            over India. Journal of Hydrology, doi:{" "}
+            <a href="https://doi.org/10.1016/j.jhydrol.2019.124407">
+              https://doi.org/10.1016/j.jhydrol.2019.124407
+            </a>
+            .
+          </p>
+          <p>
+            58) Das, J., Jha, S., Goyal, M. K. (2020). Non-stationary and
+            copula-based approach to assess the drought characteristics
+            encompassing climate indices over the Himalayan states in India.
+            Journal of Hydrology, doi:{" "}
+            <a href="https://doi.org/10.1016/j.jhydrol.2019.124356">
+              https://doi.org/10.1016/j.jhydrol.2019.124356
+            </a>
+            .
+          </p>
+          <p>
+            59) Sharma, A., Goyal, M. K. (2019). Assessment of the changes in
+            precipitation and temperature in Teesta River basin in Indian
+            Himalayan Region under climate change. Atmospheric Research, doi:{" "}
+            <a href="https://doi.org/10.1016/j.atmosres.2019.104670">
+              https://doi.org/10.1016/j.atmosres.2019.104670
+            </a>
+            .
+          </p>
+          <p>
+            60) Jha, S., Das, J., Goyal, M. K. (2019). Assessment of risk and
+            resilience of terrestrial ecosystem productivity under the influence
+            of extreme climatic conditions over India. Scientific Reports, doi:{" "}
+            <a href="https://doi.org/10.1038/s41598-019-55067-0">
+              https://doi.org/10.1038/s41598-019-55067-0
+            </a>
+            .
+          </p>
+          <p>
+            61) Sinha, J., Goyal, M. K. (2019). Influences of watershed
+            characteristics on long-term annual and intra-annual water balances
+            over India. Journal of Hydrology, doi:{" "}
+            <a href="https://doi.org/10.1016/j.jhydrol.2019.123970">
+              https://doi.org/10.1016/j.jhydrol.2019.123970
+            </a>
+            .
+          </p>
+          <p>
+            62) Gupta, S., Goyal, M. K., Sarma, A. K. (2019). Spatial
+            homogeneity of extreme precipitation indices using fuzzy clustering
+            over northeast India. Natural Hazards, doi:{" "}
+            <a href="https://doi.org/10.1007/s11069-019-03715-z">
+              https://doi.org/10.1007/s11069-019-03715-z
+            </a>
+            .
+          </p>
+          <p>
+            63) Krishan, M., Jha, S., Das, J., Singh, A., Goyal, M. K., Sekar,
+            C. (2019). Air quality modelling using long short-term memory (LSTM)
+            over NCT-Delhi, India. Environmental Earth Sciences, doi:{" "}
+            <a href="https://doi.org/10.1007/s11869-019-00696-7">
+              https://doi.org/10.1007/s11869-019-00696-7
+            </a>
+            .
+          </p>
+          <p>
+            64) Jha, S., Das, J., Sharma, A., Hazra, B., Goyal, M. K. (2019).
+            Probabilistic evaluation of vegetation drought likelihood and its
+            implications to resilience across India. Global and Planetary
+            Change, doi:{" "}
+            <a href="https://doi.org/10.1016/j.gloplacha.2019.01.014">
+              https://doi.org/10.1016/j.gloplacha.2019.01.014
+            </a>
+            .
           </p>
 
           <p>
-            2) Sinha, J., Das, J., Jha, S., and <b>Goyal Manish Kumar</b> (2020)
-            analyzed model disparity in diagnosing climatic and human stresses
-            on runoff variability over India in the Journal of Hydrology, which
-            has an Impact Factor of 4.405.
+            65) Hinge, G., Surampalli, R. Y., Goyal, M. K. (2019). Effects of
+            land use and soil management on soil quality in India's Northeastern
+            Himalayas. Journal of Environmental Engineering, doi:{" "}
+            <a href="https://doi.org/10.1061/(ASCE)EE.1943-7870.0001507">
+              https://doi.org/10.1061/(ASCE)EE.1943-7870.0001507
+            </a>
+            .
           </p>
-
           <p>
-            3) Das, J., Jha, S., and G<b>Goyal Manish Kumar</b> (2020) assessed
-            drought characteristics encompassing climate indices over the
-            Himalayan states in India using a non-stationary and copula-based
-            approach, published in the Journal of Hydrology with an Impact
-            Factor of 4.405.
+            66) Khan, M., Sharma, A., Goyal, M. K. (2019). Assessment of future
+            water provisioning and sediment load under climate and LULC change
+            scenarios in a peninsular river basin, India. International Journal
+            of Climatology, doi:{" "}
+            <a href="https://doi.org/10.1080/02626667.2019.1584401">
+              https://doi.org/10.1080/02626667.2019.1584401
+            </a>
+            .
           </p>
-
           <p>
-            4) Sharma, A. and <b>Goyal Manish Kumar</b> (2020) evaluated changes
-            in precipitation and temperature in the Teesta River basin in the
-            Indian Himalayan Region under climate change, published in
-            Atmospheric Research with an Impact Factor of 4.114.
+            67) Singh, V., Sharma, A., Goyal, M. K. (2019). Projection of
+            hydro-climatological changes over eastern Himalayan catchment by the
+            evaluation of RegCM4 RCM and CMIP5 GCM models. Hydrological Sciences
+            Journal, doi:{" "}
+            <a href="https://doi.org/10.2166/nh.2017.193">
+              https://doi.org/10.2166/nh.2017.193
+            </a>
+            .
           </p>
-
           <p>
-            5) Das, J., Jha, S., and <b>Goyal Manish Kumar</b> (2020) explored
-            the relationship between climatic and monsoon teleconnections with
-            monthly precipitation over meteorologically homogeneous regions in
-            India using wavelet and global coherence approaches, published in
-            Atmospheric Research with an Impact Factor of 4.114.
+            68) Goswami, U. P., Hazra, B., Goyal, M. K. (2018). Copula-based
+            probabilistic characterization of precipitation extremes over North
+            Sikkim Himalaya. Atmospheric Research, doi:{" "}
+            <a href="https://doi.org/10.1016/j.atmosres.2018.05.019">
+              https://doi.org/10.1016/j.atmosres.2018.05.019
+            </a>
+            .
           </p>
-
           <p>
-            6) Jha, S., Das, J., and <b>Goyal Manish Kumar</b> (2019) assessed
-            the risk and resilience of terrestrial ecosystem productivity under
-            extreme climatic conditions over India, published in Scientific
-            Reports with an Impact Factor of 4.525.
+            69) Singh, V., Goyal, M. K. (2018). An improved coupled framework
+            for Glacier classification: an integration of optical and thermal
+            infrared remote-sensing bands. International Journal of Remote
+            Sensing, doi:{" "}
+            <a href="https://doi.org/10.1080/01431161.2018.1468104">
+              https://doi.org/10.1080/01431161.2018.1468104
+            </a>
+            .
           </p>
-
           <p>
-            7) Jhilam Sinha, Srinidhi Jha, and <b>Goyal Manish Kumar</b> (2019)
-            studied the influences of watershed characteristics on long-term
-            annual and intra-annual water balances over India, published in the
-            Journal of Hydrology with an Impact Factor of 4.405.
+            70) Hinge, G., Surampalli, R. Y., Goyal, M. K. (2018). Regional
+            carbon fluxes from land-use conversion and land-use management in
+            Northeast India. Journal of Environmental Engineering, doi:{" "}
+            <a href="https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000404">
+              https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000404
+            </a>
+            .
           </p>
-
           <p>
-            8) Jha, S., Das, J., Sharma, A., Hazra, B., and{" "}
-            <b>Goyal Manish Kumar</b>
-            (2019) conducted a probabilistic evaluation of vegetation drought
-            likelihood and its implications for resilience across India,
-            published in Global and Planetary Change with an Impact Factor of
-            4.100.
+            71) Sinha, J., Sharma, A., Khan, M., Goyal, M. K. (2018). Assessment
+            of the impacts of climatic variability and anthropogenic stress on
+            hydrologic resilience to warming shifts in Peninsular India.
+            Scientific Reports, doi:{" "}
+            <a href="https://doi.org/10.1038/s41598-018-32091-0">
+              https://doi.org/10.1038/s41598-018-32091-0
+            </a>
+            .
           </p>
-
           <p>
-            9) Azhoni, A., and <b>Goyal Manish Kumar</b> (2018) diagnosed
-            climate change impacts and identified adaptation strategies by
-            involving key stakeholder organizations and farmers in Sikkim,
-            India, published in Science of the Total Environment with an Impact
-            Factor of 5.589.
+            72) Sharma, A., Goyal, M. K. (2018). District-level assessment of
+            the ecohydrological resilience to hydroclimatic disturbances and its
+            controlling factors in India. Journal of Hydrology, doi:{" "}
+            <a href="https://doi.org/10.1016/j.jhydrol.2018.07.079">
+              https://doi.org/10.1016/j.jhydrol.2018.07.079
+            </a>
+            .
           </p>
-
           <p>
-            10) Sinha, J., Sharma, A., Khan, M., and <b>Goyal Manish Kumar</b>{" "}
-            (2018) assessed the impacts of climatic variability and
-            anthropogenic stress on hydrologic resilience to warming shifts in
-            Peninsular India, published in Scientific Reports with an Impact
-            Factor of 4.525.
+            73) Goyal, M. K., Surampalli, R. Y. (2018). Impact of climate change
+            on water resources in India. Journal of Environmental Engineering,
+            doi:{" "}
+            <a href="https://doi.org/10.1061/(ASCE)EE.1943-7870.0001394">
+              https://doi.org/10.1061/(ASCE)EE.1943-7870.0001394
+            </a>
+            .
           </p>
-
           <p>
-            11) Sharma, A., and <b>Goyal Manish Kumar</b> (2018) conducted a
-            district-level assessment of the ecohydrological resilience to
-            hydroclimatic disturbances and its controlling factors in India,
-            published in the Journal of Hydrology with an Impact Factor of
-            4.405.
+            74) Azhoni, A., Goyal, M. K. (2018). Diagnosing climate change
+            impacts and identifying adaptation strategies by involving key
+            stakeholder organisations and farmers in Sikkim, India: Challenges
+            and opportunities. Science of The Total Environment, doi:{" "}
+            <a href="https://doi.org/10.1016/j.scitotenv.2018.01.112">
+              https://doi.org/10.1016/j.scitotenv.2018.01.112
+            </a>
+            .
           </p>
-
           <p>
-            12) Goswami, U. P., Hazra, B., and <b>Goyal Manish Kumar</b> (2018)
-            characterized precipitation extremes over North Sikkim Himalaya
-            using a copula-based probabilistic approach, published in
-            Atmospheric Research with an Impact Factor of 4.114.
+            75) Hinge, G., Surampalli, R. Y., Goyal, M. K. (2018). Prediction of
+            soil organic carbon stock using digital mapping approach in humid
+            India. Environmental Earth Sciences, doi:{" "}
+            <a href="https://doi.org/10.1007/s12665-018-7374-x">
+              https://doi.org/10.1007/s12665-018-7374-x
+            </a>
+            .
           </p>
-
           <p>
-            13) Goswami, U. P., Bhargav, K., Hazra, B., and{" "}
-            <b>Goyal Manish Kumar</b>
-            (2018) studied the spatiotemporal and joint probability behavior of
-            temperature extremes over the Himalayan region under changing
-            climate, published in Theoretical and Applied Climatology with an
-            Impact Factor of 2.720.
+            76) Sharma, A., Goyal, M. K. (2017). Assessment of ecosystem
+            resilience to hydroclimatic disturbances in India. Global Change
+            Biology, doi:{" "}
+            <a href="https://doi.org/10.1111/gcb.13874">
+              https://doi.org/10.1111/gcb.13874
+            </a>
+            .
           </p>
-
           <p>
-            14) Sharma, A., and <b>Goyal Manish Kumar</b> (2017) assessed the
-            resilience of ecosystems to hydroclimatic disturbances in India,
-            published in Global Change Biology with an Impact Factor of 8.997.
+            77) Goyal, M. K., Panchariya, V. K., Sharma, A., Singh, V. (2017).
+            Comparative assessment of SWAT model performance in two distinct
+            catchments under various DEM scenarios of varying resolution,
+            sources and resampling methods. Natural Hazards, doi:{" "}
+            <a href="https://doi.org/10.1007/s11269-017-1840-1">
+              https://doi.org/10.1007/s11269-017-1840-1
+            </a>
+            .
           </p>
-
           <p>
-            15) Shivam, <b>Goyal Manish Kumar</b>, and Sarma, A. K. (2017)
-            conducted an index-based study of future precipitation changes over
-            the Subansiri River catchment under changing climate, published in
-            the Journal of Environmental Informatics with an Impact Factor of
-            4.521.
+            78) Singh, V., Goyal, M. K. (2017). Spatio-temporal heterogeneity
+            and changes in extreme precipitation over eastern Himalayan
+            catchments India. Theoretical and Applied Climatology, doi:{" "}
+            <a href="https://doi.org/10.1007/s00477-016-1350-3">
+              https://doi.org/10.1007/s00477-016-1350-3
+            </a>
+            .
           </p>
-
           <p>
-            16) <b>Goyal Manish Kumar</b>, K. Katsifarakis, and A. Sharma (2017)
-            predicted the flow rate of Karstic springs using Support Vector
-            Machines, published in the Hydrological Sciences Journal with an
-            Impact Factor of 2.180.
+            79) Singh, V., Goyal, M. K. (2017). Curve number modifications and
+            parameterization sensitivity analysis for reducing model uncertainty
+            in simulated and projected streamflows in a Himalayan catchment.
+            Ecological Engineering, doi:{" "}
+            <a href="https://doi.org/10.1016/j.ecoleng.2017.08.002">
+              https://doi.org/10.1016/j.ecoleng.2017.08.002
+            </a>
+            .
           </p>
-
           <p>
-            17) Singh, V., and <b>Goyal Manish Kumar</b> (2017) analyzed
-            spatio-temporal heterogeneity and changes in extreme precipitation
-            over eastern Himalayan catchments in India, published in Stochastic
-            Environmental Research and Risk Assessment with an Impact Factor of
-            2.807.
+            80) Shivam, G., Goyal, M. K., Sarma, A. K. (2017). Index-based study
+            of future precipitation changes over subansiri river catchment under
+            changing climate. Journal of Environmental Indicator, doi:{" "}
+            <a href="10.3808/jei.201700376">10.3808/jei.201700376</a>.
           </p>
-
           <p>
-            18) Singh, V., and <b>Goyal Manish Kumar</b> (2017) conducted curve
-            number modifications and parameterization sensitivity analysis to
-            reduce model uncertainty in simulated and projected streamflows in a
-            Himalayan catchment, published in Ecological Engineering with an
-            Impact Factor of 3.406.
+            81) Goswami, U. P., Bhargav, K., Hazra, B., Goyal, M. K. (2017).
+            Spatiotemporal and joint probability behavior of temperature
+            extremes over the Himalayan region under changing climate.
+            Theoretical and Applied Climatology, doi:{" "}
+            <a href="https://doi.org/10.1007/s00704-017-2288-1">
+              https://doi.org/10.1007/s00704-017-2288-1
+            </a>
+            .
           </p>
-
           <p>
-            19) Shivam, <b>Goyal Manish Kumar</b>, and Sarma, A. K. (2017)
-            analyzed temperature trends in the Subansiri River basin for RCP
-            scenarios using CMIP5 datasets, published in Theoretical and Applied
-            Climatology with an Impact Factor of 2.720.
+            82) Goyal, M. K., Sharma, A., Katsifarakis, K. L. (2017). Prediction
+            of flow rate of karstic springs using support vector machines.
+            International Journal of Climatology, doi:{" "}
+            <a href="https://doi.org/10.1080/02626667.2017.1371847">
+              https://doi.org/10.1080/02626667.2017.1371847
+            </a>
+            .
           </p>
-
           <p>
-            20) Singh, V., and <b>Goyal Manish Kumar</b> (2016) analyzed
-            precipitation lapse rate and extreme indices over North Sikkim
-            eastern Himalayas under CMIP5ESM2-M RCPs experiments, published in
-            Atmospheric Research with an Impact Factor of 4.114.
+            83) Sekar, C., Gurjar, B. R., Ojha, C. S. P., Goyal, M. K. (2017).
+            Closure to "Potential Assessment of Neural Network and Decision Tree
+            Algorithms for Forecasting Ambient PM2.5 and CO Concentrations: Case
+            Study". Journal of Hydrologic Engineering, doi:{" "}
+            <a href="https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000378">
+              https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000378
+            </a>
+            .
           </p>
-
           <p>
-            21) Apurv, T., Mehrotra, R., Sharma, A., <b>Goyal Manish Kumar</b>,
-            and Dutta, S. (2015) studied the impact of climate change on floods
-            in the Brahmaputra basin using CMIP5 decadal predictions, published
-            in the Journal of Hydrology with an Impact Factor of 4.405.
+            84) Sharma, A., Goyal, M. K. (2016). A comparison of three soft
+            computing techniques, Bayesian regression, support vector
+            regression, and wavelet regression, for monthly rainfall forecast.
+            Journal of Intelligent Systems, doi:{" "}
+            <a href="https://doi.org/10.1515/jisys-2016-0065">
+              https://doi.org/10.1515/jisys-2016-0065
+            </a>
+            .
           </p>
-
           <p>
-            22) <b>Goyal Manish Kumar</b>, Singh, V., and Meena, H. A. (2015)
-            conducted geospatial and hydrological modeling to assess hydropower
-            potential zones and site locations over rainfall-dependent inland
-            catchments, published in Water Resources Management with an Impact
-            Factor of 2.987.
+            85) Singh, V., Goyal, M. K. (2016). Unsteady High Velocity Flood
+            Flows and the Development of Rating Curves in a Himalayan Basin
+            under Climate Change Scenarios. Journal of Hydrologic Engineering,
+            doi:{" "}
+            <a href="https://doi.org/10.1061/(ASCE)HE.1943-5584.0001530">
+              https://doi.org/10.1061/(ASCE)HE.1943-5584.0001530
+            </a>
+            .
           </p>
-
           <p>
-            23) <b>Goyal Manish Kumar</b> and Gupta, V. (2014) identified
-            homogeneous rainfall regimes in the Northeast region of India using
-            fuzzy cluster analysis, published in Water Resources Management with
-            an Impact Factor of 2.987.
+            86) Shivam, G., Goyal, M. K., Sarma, A. K. (2016). Analysis of the
+            change in temperature trends in Subansiri River basin for RCP
+            scenarios using CMIP5 datasets. Theoretical and Applied Climatology,
+            doi:{" "}
+            <a href="https://doi.org/10.1007/s00704-016-1842-6">
+              https://doi.org/10.1007/s00704-016-1842-6
+            </a>
+            .
           </p>
-
           <p>
-            24) <b>Goyal Manish Kumar</b> (2014) predicted monthly rainfall
-            using wavelet regression and neural network analysis of 1901-2002
-            data in Assam, India, published in Theoretical and Applied
-            Climatology with an Impact Factor of 2.720.
+            87) Goyal, M. K., Khan, M. (2016). Assessment of spatially explicit
+            annual water-balance model for Sutlej River Basin in eastern
+            Himalayas and Tungabhadra River Basin in peninsular India.
+            Hydrological Sciences Journal, doi:{" "}
+            <a href="https://doi.org/10.2166/nh.2016.053">
+              https://doi.org/10.2166/nh.2016.053
+            </a>
+            .
           </p>
-
           <p>
-            25) <b>Goyal Manish Kumar</b>, Bharti, B., Quilty, J., Adamowski,
-            J., and Pandey, A. (2014) modeled daily pan evaporation in
-            subtropical climates using ANN, LS-SVR, fuzzy logic, and ANFIS,
-            published in Expert Systems with Applications with an Impact Factor
-            of 4.292.
+            88) Munoz-Arriola, F., Singh, V., Goyal, M. K., Surampalli, R. Y.
+            (2016). Sub catchment Assessment of snowpack and snowmelt change by
+            analyzing elevation bands and parameter sensitivity in the high
+            Himalayas. Hydrology and Earth System Sciences Discussions, doi:{" "}
+            <a href="https://doi.org/10.5194/hess-2016-689">
+              https://doi.org/10.5194/hess-2016-689
+            </a>
+            .
           </p>
-
           <p>
-            26) <b>Goyal Manish Kumar</b>r (2014) modeled sediment yield
-            prediction using the M5 Model Tree algorithm and wavelet regression,
-            published in Water Resources Management with an Impact Factor of
-            2.987.
+            89) Goyal, M. K., Sharma, A. (2016). A fuzzy c-means approach
+            regionalization for analysis of meteorological drought homogeneous
+            regions in western India. Natural Hazards, doi:{" "}
+            <a href="https://doi.org/10.1007/s11069-016-2520-9">
+              https://doi.org/10.1007/s11069-016-2520-9
+            </a>
+            .
           </p>
-
           <p>
-            27) <b>Goyal Manish Kumar</b>r (2014) conducted a statistical
-            analysis of long-term rainfall trends during 1901-2002 in Assam,
-            India, published in Water Resources Management with an Impact Factor
-            of 2.987.
+            90) Sharma, A., Goyal, M. K. (2016). Bayesian network for monthly
+            rainfall forecast: a comparison of K2 and MCMC algorithm.
+            International Journal of Climatology, doi:{" "}
+            <a href="https://doi.org/10.1080/1206212X.2016.1237131">
+              https://doi.org/10.1080/1206212X.2016.1237131
+            </a>
+            .
           </p>
-
           <p>
-            28) Seshan, H., <b>Goyal Manish Kumar</b>, Falk, M. W., and W.
-            Stefan (2014) developed a Support Vector Regression model of
+            91) Sekar, C., Gurjar, B. R., Ojha, C. S. P., Goyal, M. K. (2016).
+            Potential Assessment of Neural Network and Decision Tree Algorithms
+            for Forecasting Ambient PM 2.5 and CO Concentrations: Case Study.
+            Journal of Hydrologic Engineering, doi:{" "}
+            <a href="https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000276">
+              https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000276
+            </a>
+            .
+          </p>
+          <p>
+            92) Sekar, C., Ojha, C. S. P., Gurjar, B. R., Goyal, M. K. (2016).
+            Modeling and Prediction of Hourly Ambient Ozone (O3) and Oxides of
+            Nitrogen (NOx) Concentrations Using Artificial Neural Network and
+            Decision Tree Algorithms for an Urban Intersection in India. Journal
+            of Hydrologic Engineering, doi:{" "}
+            <a href="https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000270">
+              https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000270
+            </a>
+            .
+          </p>
+          <p>
+            93) Singh, V., Goyal, M. K. (2016). Changes in climate extremes by
+            the use of CMIP5 coupled climate models over eastern Himalayas.
+            Environmental Earth Sciences, doi:{" "}
+            <a href="DOI 10.1007/s12665-016-5651-0">
+              DOI 10.1007/s12665-016-5651-0
+            </a>
+            .
+          </p>
+          <p>
+            94) Singh, V., Goyal, M. K., Chu, X. (2016). Analysis and trends of
+            precipitation lapse rate and extreme indices over north Sikkim
+            eastern Himalayas under CMIP5ESM-2M RCPs experiments.
+          </p>
+          <p>
+            95) Ranganathan, K., Goyal, M. K. (2016). Multicriteria evaluation
+            approach for assessing parametric uncertainty during extreme peak
+            and low flow conditions over snow glaciated and inland catchments.
+            Atmospheric Research, doi:{" "}
+            <a href="https://doi.org/10.1016/j.atmosres.2015.07.005">
+              https://doi.org/10.1016/j.atmosres.2015.07.005
+            </a>
+            .
+          </p>
+          <p>
+            96) Apurv, T., Mehrotra, R., Sharma, A., Goyal, M. K., Dutta, S.
+            (2015). Clean development mechanism - an opportunity to mitigate
+            carbon footprint from the energy sector of India. Journal of
+            Hydrologic Engineering, doi:{" "}
+            <a href="https://doi.org/10.1061/(ASCE)HE.1943-5584.0001217">
+              https://doi.org/10.1061/(ASCE)HE.1943-5584.0001217
+            </a>
+            .
+          </p>
+          <p>
+            97) Goyal, M. K., Singh, V., Meena, A. H. (2015). Impact of climate
+            change on floods in the Brahmaputra basin using CMIP5 decadal
+            predictions. Journal of Hydrology.
+          </p>
+          <p>
+            98) Goyal, M. K., Madramootoo, C. A., Richards, J. F. (2015).
+            Geospatial and hydrological modeling to assess hydropower potential
+            zones and site location over rainfall dependent Inland catchment.
+            Journal of Hydrology.
+          </p>
+          <p>
+            99) Goyal, M. K., Gupta, V. (2015). Simulation of the Streamflow for
+            the Rio Nuevo Watershed of Jamaica for Use in Agriculture Water
+            Scarcity Planning. Journal of Hydrology, doi:{" "}
+            <a href="https://doi.org/10.1016/j.jhydrol.2015.04.056">
+              https://doi.org/10.1016/j.jhydrol.2015.04.056
+            </a>
+            .
+          </p>
+          <p>
+            100) Royal, I., Goyal, M. K. (2015). Identification of homogeneous
+            rainfall regimes in Northeast Region of India using fuzzy cluster
+            analysis. Natural Hazards, doi:{" "}
+            <a href="https://doi.org/10.1007/s11269-015-0975-1">
+              https://doi.org/10.1007/s11269-015-0975-1
+            </a>
+            .
+          </p>
+          <p>
+            101) Richards, J., Madramootoo, C. A., Goyal, M. K. (2015). Monthly
+            rainfall prediction using wavelet regression and neural network: an
+            analysis of 1901–2002 data, Assam, India. Journal of Irrigation and
+            Drainage Engineering, doi:{" "}
+            <a href="https://doi.org/10.1061/(ASCE)IR.1943-4774.0000802">
+              https://doi.org/10.1061/(ASCE)IR.1943-4774.0000802
+            </a>
+            .
+          </p>
+          <p>
+            102) Goyal, M. K. (2014). Modeling of daily pan evaporation in sub
+            tropical climates using ANN, LS-SVR, Fuzzy Logic, and ANFIS. Natural
+            Hazards, doi:{" "}
+            <a href="https://doi.org/10.1007/s11269-014-0699-7">
+              https://doi.org/10.1007/s11269-014-0699-7
+            </a>
+            .
+          </p>
+          <p>
+            103) Seshan, H., Goyal, M. K., Falk, M. W., Wuertz, S. (2014).
+            Estimation of soil carbon stocks in Pabitora Sanctuary and Manas
+            National Park in Assam. Theoretical and Applied Climatology, doi:{" "}
+            <a href="https://doi.org/10.1007/s00704-013-1029-3">
+              https://doi.org/10.1007/s00704-013-1029-3
+            </a>
+            .
+          </p>
+          <p>
+            104) Singh, A. K., Madramootoo, C. A., Goyal, M. K., Smith, D. L.
+            (2014). Determining irrigation requirements for vegetables and
+            sugarcane in Jamaica. Expert Systems with Applications, doi:{" "}
+            <a href="https://doi.org/10.1016/j.eswa.2014.02.047">
+              https://doi.org/10.1016/j.eswa.2014.02.047
+            </a>
+            .
+          </p>
+          <p>
+            105) Goyal, M. K., Ojha, C. S. P. (2014). Modeling of Sediment Yield
+            Prediction Using M5 Model Tree Algorithm and Wavelet Regression.
+            Journal of Agriculture and Environmental Sciences, doi:{" "}
+            <a href="http://www.jstor.org/stable/24103410">
+              http://www.jstor.org/stable/24103410
+            </a>
+            .
+          </p>
+          <p>
+            106) Goyal, M. K. (2014). Support vector regression model of
             wastewater bioreactor performance using microbial community
-            diversity indices, published in Water Research with an Impact Factor
-            of 7.913.
+            diversity indices: Effect of stress and bioaugmentation. Irrigation
+            and Drainage, doi:{" "}
+            <a href="https://doi.org/10.1002/ird.1811">
+              https://doi.org/10.1002/ird.1811
+            </a>
+            .
+          </p>
+          <p>
+            107) Goyal, M. K. (2014). Statistical analysis of long term trends
+            of rainfall during 1901–2002 at Assam, India. Natural Hazards, doi:{" "}
+            <a href="https://doi.org/10.1007/s11269-014-0590-6">
+              https://doi.org/10.1007/s11269-014-0590-6
+            </a>
+            .
+          </p>
+          <p>
+            108) Goyal, M. K., Singh, V. (2014). Discussion of "SWAT-Based
+            Evapotranspirative Water Conservation Analysis Performed on
+            Irrigated Croplands to Determine Potential Regional Water Savings"
+            by Andrew Gayley. Water Resources Research, doi:{" "}
+            <a href="https://doi.org/10.1016/j.watres.2014.01.015">
+              https://doi.org/10.1016/j.watres.2014.01.015
+            </a>
+            .
+          </p>
+          <p>
+            109) Singh, A. K., Madramootoo, C. A., Goyal, M. K., Smith, D. L.
+            (2014). Corn yield simulation using the STICS model under varying
+            nitrogen management and climate-change scenarios. Natural Hazards,
+            doi:{" "}
+            <a href="https://doi.org/10.1007/s11269-014-0529-y">
+              https://doi.org/10.1007/s11269-014-0529-y
+            </a>
+            .
+          </p>
+          <p>
+            110) Goyal, M. K., Ojha, C. S. P. (2014). Evaluation of rule and
+            decision tree induction algorithms for generating climate change
+            scenarios for temperature and pan evaporation on a lake basin.
+            Journal of Irrigation and Drainage Engineering, doi:{" "}
+            <a href="https://doi.org/10.1061/(ASCE)IR.1943-4774.0000684">
+              https://doi.org/10.1061/(ASCE)IR.1943-4774.0000684
+            </a>
+            .
+          </p>
+          <p>
+            111) Goyal, M. K., Ojha, C. S. P., Singh, R. D., Swamee, P. K.
+            (2014). Application of artificial neural network, fuzzy logic and
+            decision tree algorithms for modelling of streamflow at Kasol in
+            India. Journal of Irrigation and Drainage Engineering, doi:{" "}
+            <a href="https://doi.org/10.1061/(ASCE)IR.1943-4774.0000682">
+              https://doi.org/10.1061/(ASCE)IR.1943-4774.0000682
+            </a>
+            .
+          </p>
+          <p>
+            112) Richards, J., Madramootoo, C. A., Goyal, M. K., Trotman, A.
+            (2013). Application of the standardized precipitation index and
+            normalized difference vegetation index for evaluation of irrigation
+            demands at three sites in Jamaica. Journal of Hydrologic
+            Engineering, doi:{" "}
+            <a href="https://doi.org/10.1061/(ASCE)HE.1943-5584.0000795">
+              https://doi.org/10.1061/(ASCE)HE.1943-5584.0000795
+            </a>
+            .
+          </p>
+          <p>
+            113) Zhang, D. Q., Gersberg, R. M., Hua, T., Zhu, J., Goyal, M. K.,
+            Ng, W. J., Tan, S. K. (2013). Fate of pharmaceutical compounds in
+            hydroponic mesocosms planted with Scirpus validus. Water Science and
+            Technology, doi:{" "}
+            <a href="https://doi.org/10.2166/wst.2013.491">
+              https://doi.org/10.2166/wst.2013.491
+            </a>
+            .
+          </p>
+          <p>
+            114) Goyal, M. K., Burn, D. H., Ojha, C. S. P. (2013). Precipitation
+            simulation based on k-nearest neighbor approach using gamma kernel.
+            Journal of Irrigation and Drainage Engineering, doi:{" "}
+            <a href="http://dx.doi.org/10.1061/(ASCE)IR.1943-4774.0000629">
+              http://dx.doi.org/10.1061/(ASCE)IR.1943-4774.0000629
+            </a>
+            .
+          </p>
+          <p>
+            115) Goyal, M. K., Ojha, C. S. P., Singh, R. D., Swamee, P. K.,
+            Nema, R. K. (2013). Application of ANN, fuzzy logic and decision
+            tree algorithms for the development of reservoir operating rules.
+            Environmental Pollution, doi:{" "}
+            <a href="https://doi.org/10.1016/j.envpol.2013.06.016">
+              https://doi.org/10.1016/j.envpol.2013.06.016
+            </a>
+            .
+          </p>
+          <p>
+            116) Chua, L. H. C., Tan, S. B. K., Sim, C. H., Goyal, M. K. (2012).
+            Treatment of baseflow from an urban catchment by a floating wetland
+            system. Journal of Hydrologic Engineering, doi:{" "}
+            <a href="https://ascelibrary.org/doi/10.1061/%28ASCE%29HE.1943-5584.0000615">
+              https://ascelibrary.org/doi/10.1061/%28ASCE%29HE.1943-5584.0000615
+            </a>
+            .
+          </p>
+          <p>
+            117) Hong, J. H., Goyal, M. K., Chiew, Y. M., Chua, L. H. C. (2012).
+            Predicting time-dependent pier scour depth with support vector
+            regression. Natural Hazards, doi:{" "}
+            <a href="10.1007/s11269-012-0225-8">10.1007/s11269-012-0225-8</a>.
+          </p>
+          <p>
+            118) Goyal, M. K., Ojha, C. S. P. (2012). Downscaling of
+            precipitation on a lake basin: evaluation of rule and decision tree
+            induction algorithms. Ecological Engineering, doi:{" "}
+            <a href="http://dx.doi.org/10.1016/j.ecoleng.2012.08.031">
+              http://dx.doi.org/10.1016/j.ecoleng.2012.08.031
+            </a>
+            .
+          </p>
+          <p>
+            119) Goyal, M. K., Ojha, C. S. P., Burn, D. H. (2012). Nonparametric
+            statistical downscaling of temperature, precipitation, and
+            evaporation in a semiarid region in India. Journal of Hydrology,
+            doi:{" "}
+            <a href="http://dx.doi.org/10.1016/j.jhydrol.2012.08.038">
+              http://dx.doi.org/10.1016/j.jhydrol.2012.08.038
+            </a>
+            .
+          </p>
+          <p>
+            120) Goyal, M. K., Burn, D. H., Ojha, C. S. P. (2012). Evaluation of
+            machine learning tools as a statistical downscaling tool:
+            temperatures projections for multi-stations for Thames River Basin,
+            Canada. Hydrological Sciences Journal, doi:{" "}
+            <a href="https://doi.org/10.2166/nh.2012.040">
+              https://doi.org/10.2166/nh.2012.040
+            </a>
+            .
+          </p>
+          <p>
+            121) Ajmera, T. K., Goyal, M. K. (2012). Development of
+            stage–discharge rating curve using model tree and neural networks:
+            An application to Peachtree Creek in Atlanta. Journal of Hydrologic
+            Engineering, doi:{" "}
+            <a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29HE.1943-5584.0000479">
+              https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29HE.1943-5584.0000479
+            </a>
+            .
+          </p>
+          <p>
+            122) Goyal, M. K., Ojha, C. S. P. (2012). Downscaling of surface
+            temperature for lake catchment in an arid region in India using
+            linear multiple regression and neural networks. Theoretical and
+            Applied Climatology, doi:{" "}
+            <a href="https://doi.org/10.1007/s00704-011-0546-1">
+              https://doi.org/10.1007/s00704-011-0546-1
+            </a>
+            .
+          </p>
+          <p>
+            123) Kumar, A. R. S., Ojha, C. S. P., Goyal, M. K., Singh, R. D.,
+            Swamee, P. K. (2011). Modeling of suspended sediment concentration
+            at Kasol in India using ANN, fuzzy logic, and decision tree
+            algorithms. Expert Systems with Applications, doi:{" "}
+            <a href="http://dx.doi.org/10.1016/j.eswa.2011.11.101">
+              http://dx.doi.org/10.1016/j.eswa.2011.11.101
+            </a>
+            .
+          </p>
+          <p>
+            124) Goyal, M. K., Burn, D. H., Ojha, C. S. P. (2011). Statistical
+            downscaling of temperatures under climate change scenarios for
+            Thames river basin, Canada. Open Environmental Sciences, doi:{" "}
+            <a href="http://dx.doi.org/10.2174/1874378101004010122">
+              http://dx.doi.org/10.2174/1874378101004010122
+            </a>
+            .
+          </p>
+          <p>
+            125) Goyal, M. K., Ojha, C. S. P. (2011). PLS regression-based pan
+            evaporation and minimum–maximum temperature projections for an arid
+            lake basin in India. Journal of Hydrologic Engineering, doi:{" "}
+            <a href="https://doi.org/10.1061/(ASCE)HE.1943-5584.0000445">
+              https://doi.org/10.1061/(ASCE)HE.1943-5584.0000445
+            </a>
+            .
           </p>
 
           <p>
-            29) Dongqing Z, Richard M. Gersberg, Tao Hua, Junfei Z,{" "}
-            <b>Goyal Manish Kumar</b>, Wun Jern Ng, Soon Keat Tan (2013), “Fate
-            of pharmaceutical compounds in wetland mesocosms planted with
-            Scirpus validus” Environment Pollution, Elsevier Ltd, 181: 98–106,
-            Impact factor: 5.714
+            126) Nath, U. K., Goyal, M. K., Nath, T. P. (2011). Prediction of
+            compressive strength of concrete using neural network. International
+            Journal of Geotechnical Engineering, doi:{" "}
+            <a href="http://dx.doi.org/10.1504/IJGW.2012.047263">
+              http://dx.doi.org/10.1504/IJGW.2012.047263
+            </a>
+            .
           </p>
-
           <p>
-            30) Senthil Kumar, A. R., <b>Goyal Manish Kumar</b>, Ojha, C. S. P.,
-            Singh, R. D., Swamee, P. K., and Nema, R. K. (2013) applied ANN,
-            fuzzy logic, and decision tree algorithms for the development of
-            reservoir operating rules, published in Water Resources Management
-            with an Impact Factor of 2.987.
+            127) Goyal, M. K., Ojha, C. S. P. (2011). Estimation of Scour
+            Downstream of a Ski-Jump Bucket Using Support Vector and M5 Model
+            Tree. Theoretical and Applied Climatology, doi:{" "}
+            <a href="https://doi.org/10.1007/s00704-011-0406-z">
+              https://doi.org/10.1007/s00704-011-0406-z
+            </a>
+            .
           </p>
-
           <p>
-            31) Chua, Lloyd H. C., Tan, Stephen B. K., Sim, C. H.
-            <b>Goyal Manish Kumar</b>Manish Kumar (2012) treated baseflow from
-            an urban catchment using a floating wetland system, published in the
-            Journal of Ecological Engineering with an Impact Factor of 3.406.
+            128) Goyal, M. K., Ojha, C. S. P. (2011). Evaluation of linear
+            regression methods as downscaling tools in temperature projections
+            over the Pichola Lake Basin in India. Natural Hazards, doi:{" "}
+            <a href="10.1007/s11269-011-9801-6">10.1007/s11269-011-9801-6</a>.
           </p>
-
           <p>
-            32) Hong, Jian-Hao, <b>Goyal Manish Kumar</b>, Chiew, Yee-Meng, and
-            Chua, Lloyd H. C. (2012) predicted time-dependent pier scour depth
-            using Support Vector Regression, published in the Journal of
-            Hydrology with an Impact Factor of 4.405.
+            129) Ojha, C. S. P., Goyal, M. K., Adeloye, A. J. (2010).
+            Downscaling of precipitation for lake catchment in arid region in
+            India using linear multiple regression and neural networks.
+            Hydrological Processes, doi:{" "}
+            <a href="https://doi.org/10.1002/hyp.7911">
+              https://doi.org/10.1002/hyp.7911
+            </a>
+            .
           </p>
-
           <p>
-            33) Ajmera, T. K., and <b>Goyal Manish Kumar</b> (2012) developed a
-            stage-discharge rating curve using Model Tree and Neural Networks
-            for Peachtree Creek in Atlanta, published in Expert Systems with
-            Applications with an Impact Factor of 4.292.
+            130) Goyal, M. K., Burn, D. H. (2010). Discussion of "Comparison of
+            Multivariate Regression and Artificial Neural Networks for Peak
+            Urban Water-Demand Forecasting: Evaluation of Different ANN Learning
+            Algorithms" by Jan Adamowski and Christina Karapataki. Open
+            Environmental Sciences, doi:{" "}
+            <a href="http://dx.doi.org/10.2174/1874378101004010122">
+              http://dx.doi.org/10.2174/1874378101004010122
+            </a>
+            .
           </p>
-
           <p>
-            34) <b>Goyal Manish Kumar</b>, Burn, Donald H., and Ojha, C. S. P.
-            (2012) evaluated machine learning tools as a statistical downscaling
-            tool for temperature projections in the Thames River Basin, Canada,
-            published in Theoretical and Applied Climatology with an Impact
-            Factor of 2.720.
+            131) Goyal, M. K., Ojha, C. S. P. (2010). Evaluation of various
+            linear regression methods for downscaling of mean monthly
+            precipitation in arid Pichola watershed. Journal of Hydrologic
+            Engineering, doi:{" "}
+            <a href="https://doi.org/10.1061/(ASCE)HE.1943-5584.0000542">
+              https://doi.org/10.1061/(ASCE)HE.1943-5584.0000542
+            </a>
+            .
           </p>
-
           <p>
-            35) <b>Goyal Manish Kumar</b> and Ojha, C. S. P. (2012) downscaled
-            surface temperature for a lake catchment in an arid region in India
-            using linear multiple regression and neural networks, published in
-            the International Journal of Climatology with an Impact Factor of
-            3.76.
+            132) Goyal, M. K., Ojha, C. S. P. (2010). Analysis of mean monthly
+            rainfall runoff data of Indian catchments using dimensionless
+            variables by neural network. Natural Resources, doi:{" "}
+            <a href="10.4236/nr.2010.11002">10.4236/nr.2010.11002</a>.
           </p>
-
           <p>
-            36) <b>Goyal Manish Kumar</b> and Ojha, C. S. P. (2011) estimated
-            scour downstream of a ski-jump bucket using Support Vector and M5
-            Model Tree, published in Water Resources Management with an Impact
-            Factor of 2.987.
+            133) Goyal, M. K., Ojha, C. S. P. (2010). Application of
+            PLS-Regression as Downscaling Tool for Pichola Lake Basin in India.
+            Journal of Environmental Protection, doi:{" "}
+            <a href="10.4236/jep.2010.12020">10.4236/jep.2010.12020</a>.
           </p>
-
           <p>
-            37) <b>Goyal Manish Kumar</b> and Ojha, C. S. P. (2011) projected
-            pan evaporation and minimum-maximum temperatures for an arid lake
-            basin in India using PLS regression, published in Theoretical and
-            Applied Climatology with an Impact Factor of 2.720.
+            134) Goyal, M. K., Ojha, C. S. P. (2010). Robust weighted regression
+            as a downscaling tool in temperature projections. International
+            Journal of Geosciences, doi:{" "}
+            <a href="10.4236/ijg.2010.12007">10.4236/ijg.2010.12007</a>.
           </p>
-
           <p>
-            38) <b>Goyal Manish Kumar</b> and Ojha, C. S. P. (2011) evaluated
-            linear regression methods as a downscaling tool for temperature
-            projections over the Pichola Lake Basin in India, published in
-            Hydrological Processes with an Impact Factor of 2.768.
+            135) Ojha, C. S. P., Goyal, M. K., Kumar, S. (2010). Applying Fuzzy
+            logic and the point count system to select landfill sites.
+            International Journal of Geotechnical Engineering, doi:{" "}
+            <a href="https://doi.org/10.1504/IJGW.2010.036135">
+              https://doi.org/10.1504/IJGW.2010.036135
+            </a>
+            .
           </p>
         </div>
+
         <div className="pub1">
           <div>
             <p className="pub3">
