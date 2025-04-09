@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom'; // Use react-router-dom Link for routing
 import { AiOutlineMenu } from "react-icons/ai";
 import { RxCross1 } from "react-icons/rx";
-import "./Navbar.css";
+import "./navbar.css";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
