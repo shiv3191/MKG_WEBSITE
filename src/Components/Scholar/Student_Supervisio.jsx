@@ -81,74 +81,81 @@ const Student_Supervisio = () => {
           </p>
         </div>
         
+        
+      </div>
+      <div className='supervision-section'>
+        <h2 className='section-title'>PhD Research Scholar - Ongoing</h2>
+        
+       
+        
         <div className='student-card'>
-          <h3 className='student-name'>Dr Shivukumar Rakkasagi</h3>
+          <h3 className='student-name'>Mr. Shivukumar Rakkasagi</h3>
           <p className='student-details'>
             Flash Droughts Occurence and Distribution using Google Earth Engine
           </p>
         </div>
         
         <div className='student-card'>
-          <h3 className='student-name'>Dr Vijay Jain</h3>
+          <h3 className='student-name'>Mr. Vijay Jain</h3>
           <p className='student-details'>
             Hydrometeorological Climate Change Impact Assessment on Indian Smart Cities, Wetlands, and Key Biodiversity Areas
           </p>
         </div>
         
         <div className='student-card'>
-          <h3 className='student-name'>Dr Kuldeep Singh Rautela</h3>
+          <h3 className='student-name'>Mr. Kuldeep Singh Rautela</h3>
           <p className='student-details'>
             Impact of Climate Change and Land Use on the Hydrology and Morphology of Hindu-Kush Himalayan Rivers
           </p>
         </div>
         
         <div className='student-card'>
-          <h3 className='student-name'>Dr Deepak Mishra</h3>
+          <h3 className='student-name'>Mr. Deepak Mishra</h3>
           <p className='student-details'>
             Smart Urban Planning and Infrastructure for Net Zero Emission Cities
           </p>
         </div>
         
         <div className='student-card'>
-          <h3 className='student-name'>Dr Kushal Jagdish Patil</h3>
+          <h3 className='student-name'>Mr. Kushal Jagdish Patil</h3>
           <p className='student-details'>
             Monitoring Flood Events over Arid Regions using Remote Sensing Data and Artificial Intelligence AI Data Analysis
           </p>
         </div>
         
         <div className='student-card'>
-          <h3 className='student-name'>Dr Mayank Upadhyay</h3>
+          <h3 className='student-name'>Mr. Mayank Upadhyay</h3>
           <p className='student-details'>
             Narmada River Basin Management Studies
           </p>
         </div>
         
         <div className='student-card'>
-          <h3 className='student-name'>Dr Adarsh Singh</h3>
+          <h3 className='student-name'>Mr. Adarsh Singh</h3>
           <p className='student-details'>
             Narmada River Basin Management Studies
           </p>
         </div>
         
         <div className='student-card'>
-          <h3 className='student-name'>Dr Shashank Agrawal</h3>
+          <h3 className='student-name'>Mr. Shashank Agrawal</h3>
           <p className='student-details'>
             Narmada River Basin Management Studies
           </p>
         </div>
         
         <div className='student-card'>
-          <h3 className='student-name'>Dr Pradip Kailas Gopal</h3>
+          <h3 className='student-name'>Mr. Pradip Kailas Gopal</h3>
           <p className='student-details'></p>
         </div>
         
         <div className='student-card'>
-          <h3 className='student-name'>Dr Shivam Singh</h3>
+          <h3 className='student-name'>Mr. Shivam Singh</h3>
           <p className='student-details'></p>
         </div>
         
         <div className='student-card'>
-          <h3 className='student-name'>Dr Gaurav Yadav</h3>
+          <h3 className='student-name'>Mr. Gaurav Yadav</h3>
           <p className='student-details'></p>
         </div>
       </div>
@@ -204,6 +211,66 @@ const Student_Supervisio = () => {
             Application of a GIS-Emergy approach in regional sustainable development by evaluating renewable natural resources flow and net primary productivity (Completed-May, 2017)
           </p>
         </div>
+      </div>
+      <div className='supervision-section'>
+        <h2 className='section-title'>M Tech Students - Ongoing</h2>
+        
+        <div className='student-card'>
+          <h3 className='student-name'>Mr. Maheep Dev</h3>
+          <p className='student-details'>
+          Climate Change, CMIP6 Projection, Rainfall, Infrastructure, Downscaling
+          </p>
+        </div>
+        
+        <div className='student-card'>
+          <h3 className='student-name'>Mr. Nakka Naveen Kumar
+          </h3>
+          <p className='student-details'>
+          Climate Change, Ramsar Wetlands, Socio-economic Implications, Rainfall Variability
+          </p>
+        </div>
+        
+       
+      </div>
+      <div className='supervision-section'>
+        <h2 className='section-title'>B Tech Students - Ongoing</h2>
+        
+        <div className='student-card'>
+          <h3 className='student-name'>Mr. Shiv Patel</h3>
+          <p className='student-details'>
+          GIS and Remote sensing
+application to develop tool in Environmental management
+          </p>
+        </div>
+        
+        <div className='student-card'>
+          <h3 className='student-name'>Mr. Manas Khatri 
+          </h3>
+          <p className='student-details'>
+          Model development using field
+data and Machine learning 
+          </p>
+        </div>
+        <div className='student-card'>
+          <h3 className='student-name'>Mr. Saksham Gupta 
+          </h3>
+          <p className='student-details'>
+          Water Management under climate
+change using Artificial Intelligence 
+
+
+          </p>
+        </div>
+        <div className='student-card'>
+          <h3 className='student-name'>Mr. Srijan Siddharth
+          </h3>
+          <p className='student-details'>
+          Model development using field
+data and Machine learning 
+          </p>
+        </div>
+        
+       
       </div>
     </div>
   )
