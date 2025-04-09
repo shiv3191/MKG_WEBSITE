@@ -1,175 +1,259 @@
+/* ===== Publications Page Styling ===== */
+/* Base Styles */
 .pub {
-    margin: 10% 10% 0 10%;
+    margin: 150px auto 60px auto;
+    padding: 30px;
+    max-width: 1200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    color: #333;
+    background-color: #f8fafc;
 }
 
-.pub1 {
-    display: flex;
-    
-    justify-content: space-between;
-    margin-bottom: 40px;
-    flex-wrap: wrap;
-}
-
+/* Section Headers */
 .pub3 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: rgb(111, 111, 236);
-}
-.publ1{
-    margin-bottom: 100px;
-}
-.pub1 a {
-    color: black;
-    font-size: 1.2rem;
-    margin-right: 5%;
+    font-size: 2.2rem;
+    color: #3a5b96;
+    margin: 70px 0 40px 0;
+    font-weight: 600;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #e1e8f0;
+    position: relative;
 }
 
-.pub4 {
-    margin-bottom: 5%;
+.pub3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 120px;
+    height: 3px;
+    background: rgb(111, 111, 236);
+}
+
+/* Publication Cards */
+.publi1, .publi2, .publi3 {
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: #ffffff;
+    border-left: 4px solid #6f6fec;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Books Section */
+.publ1 .publi1 {
+    background-color: #f6f9ff;
+}
+
+/* Selected Publications */
+.pub4 .publi1 {
+    background-color: #f5f8fe;
+}
+
+/* ASCE Publications */
+.pub1 + .pub4 .publi1 {
+    background-color: #f0f5ff;
+}
+
+/* Book Chapters */
+.pub3:has(+ .pub4) + .pub4 .publi1 {
+    background-color: #ebf2ff;
+}
+
+/* Patent Section */
+.pub1:has(.pub3) + .pub4 {
+    background-color: #f0f7f5;
+}
+
+/* Hover Effects */
+.publi1:hover, .publi2:hover, .publi3:hover {
+    transform: translateX(8px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    background-color: #e8f0ff;
+}
+
+/* Text Styling */
+.publi1 p, .publi2 p, .publi3 p {
+    margin: 0;
+    font-size: 1.05rem;
+    color: #444;
+    line-height: 1.8;
 }
 
 .pub4 p {
-    font-size: 1rem;
-    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+    margin-bottom: 1.8rem;
+    line-height: 1.8;
 }
 
-.pub4 p a {
-    color: black;
+/* Link Styling */
+.publi1 a, .publi2 a, .publi3 a,
+.pub4 a {
+    color: #222;
     text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    transition: all 0.2s ease;
 }
 
-.publi1
-{
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    margin-bottom: 50px;
-    /* flex-wrap: wrap; */
-    text-align: center;
-}
-.publi2,
-.publi3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-    padding: 10px 5%;
-    flex-wrap: wrap;
-    text-align: center;
+.publi1 a:hover, .publi2 a:hover, .publi3 a:hover,
+.pub4 a:hover {
+    color: #3a5b96;
+    border-bottom-color: #3a5b96;
 }
 
+/* Images */
 .publi1 img {
     margin-right: 30px;
-    height: 150px;
+    height: 160px;
     width: auto;
+    border-radius: 6px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
 }
 
-.publi1 a,
-.publi2 a,
-.publi3 a {
-    color: black;
-    font-size: 1rem;
+/* Section Wrappers */
+.pub0, .publ1, .pub4 {
+    margin-bottom: 70px;
 }
 
-.publi1 p,
-.publi3 {
+/* Header Containers */
+.pub1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Google Scholar Links */
+.pub1 a {
+    color: #1a56a1;
     font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 }
 
-.pub0 {
-    margin-bottom: 5%;
+.pub1 a:hover {
+    color: #0d47a1;
+    text-decoration: underline;
 }
 
-/* Responsive Design */
+/* ===== Responsive Design ===== */
+@media screen and (max-width: 1200px) {
+    .pub {
+        margin: 130px auto 50px auto;
+        padding: 25px;
+        max-width: 95%;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .pub {
-        margin: 8% 5%;
+        margin: 110px auto 40px auto;
+        padding: 20px;
     }
-
+    
     .pub3 {
-        font-size: 1.8rem;
+        font-size: 2rem;
+        margin-bottom: 35px;
     }
-
-    .pub1 {
-        flex-direction: column;
-        text-align: center;
+    
+    .publi1, .publi2, .publi3 {
+        padding: 20px;
     }
-
-    .pub1 a {
+    
+    .publi1 p, .publi2 p, .publi3 p {
         font-size: 1rem;
-        margin: 10px 0;
     }
-
+    
+    .pub4 p {
+        font-size: 1.05rem;
+        margin-bottom: 1.6rem;
+    }
+    
     .publi1 img {
-        margin-right: 0;
-        margin-bottom: 15px;
-        height: 120px;
-    }
-
-    .publi1,
-    .publi2,
-    .publi3 {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .publi1 p,
-    .publi3 {
-        font-size: 1rem;
+        height: 140px;
+        margin-right: 25px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .pub {
-        margin: 5% 3%;
+        margin: 90px auto 30px auto;
+        padding: 15px;
     }
-
+    
     .pub3 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+        margin-bottom: 30px;
     }
-
-    .pub4 p {
-        font-size: 0.9rem;
+    
+    .pub1 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
     }
-
-    .pub1 a {
-        font-size: 0.9rem;
+    
+    .publi1, .publi2, .publi3 {
+        padding: 18px;
     }
-
-    .publi1 img {
-        height: 100px;
-    }
-
-    .publi1 p,
-    .publi3 {
+    
+    .publi1 p, .publi2 p, .publi3 p {
         font-size: 0.95rem;
+    }
+    
+    .pub4 p {
+        font-size: 1rem;
+        margin-bottom: 1.4rem;
+    }
+    
+    .publi1 img {
+        height: 120px;
+        margin-right: 20px;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
     .pub {
-        margin: 5% 2%;
+        margin: 80px auto 25px auto;
+        padding: 12px;
     }
-
+    
     .pub3 {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
+        margin-bottom: 25px;
     }
-
-    .pub1 {
-        text-align: center;
+    
+    .publi1, .publi2, .publi3 {
+        flex-direction: column;
+        padding: 16px;
     }
-
-    .pub1 a {
-        font-size: 0.85rem;
-        margin: 8px 0;
-    }
-
-    .publi1 img {
-        height: 80px;
-    }
-
-    .publi1 p,
-    .publi3 {
+    
+    .publi1 p, .publi2 p, .publi3 p {
         font-size: 0.9rem;
+    }
+    
+    .pub4 p {
+        font-size: 0.95rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .publi1 img {
+        height: 100px;
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 100%;
+        max-width: 200px;
+        object-fit: cover;
+    }
+    
+    .pub1 a {
+        font-size: 1rem;
     }
 }
