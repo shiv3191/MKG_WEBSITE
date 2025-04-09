@@ -42,6 +42,7 @@ const Publications = () => {
           </div> */}
           <div className="publ1">
             <div className="publi1">
+
               <p>
                 1. <b>Manish Kumar Goyal</b>, Key Biodiversity Areas:
                 Technology–policy Interface for Combating Forest Loss and Fires,
@@ -50,82 +51,153 @@ const Publications = () => {
             </div>
 
             <div className="publi1">
+            <div>
+              <img
+                src="https://media.springernature.com/w316/springer-static/cover-hires/book/978-3-031-72014-7?as=webp"
+                alt=""
+                height="150px"
+              />
+            </div>
               <p>
                 2. <b>Manish Kumar Goyal</b>, AI Innovation for Water Policy and
                 Sustainability, 2024, ISBN: 978-3-031-66758-9,{" "}
-                <a href="https://doi.org/10.1007/978-3-031-66758-9">
-                  https://doi.org/10.1007/978-3-031-66758-9
+                <a href="https://link.springer.com/book/10.1007/978-3-031-72014-7">
+                https://link.springer.com/book/10.1007/978-3-031-72014-7
                 </a>
                 . Springer
               </p>
             </div>
 
             <div className="publi1">
+            <div>
+              <img
+                src="https://media.springernature.com/w316/springer-static/cover-hires/book/978-3-031-66758-9?as=webp"
+                alt=""
+                height="150px"
+              />
+            </div>
+
               <p>
                 3. <b>Manish Kumar Goyal</b>, Aerosol Atmospheric Rivers:
                 Availability, Spatiotemporal Characterisation, Predictability,
                 and Impacts, 2024,{" "}
-                <a href="http://dx.doi.org/10.1007/978-3-031-63478-9">
-                  http://dx.doi.org/10.1007/978-3-031-63478-9
+                <a href="https://link.springer.com/book/10.1007/978-3-031-66758-9">
+                https://doi.org/10.1007/978-3-031-66758-9
+
                 </a>
                 . Springer
               </p>
             </div>
 
             <div className="publi1">
+            <div>
+              <img
+                src="https://media.springernature.com/w316/springer-static/cover-hires/book/978-3-031-63478-9?as=webp"
+                alt=""
+                height="150px"
+              />
+            </div>
               <p>
                 4. <b>Manish Kumar Goyal</b>, Understanding Atmospheric Rivers
                 Using Machine Learning, 2024,{" "}
-                <a href="https://doi.org/10.1007/978-981-99-3687-8">
-                  https://doi.org/10.1007/978-981-99-3687-8
+                <a href="https://link.springer.com/book/10.1007/978-3-031-63478-9">
+                http://dx.doi.org/10.1007/978-3-031-63478-9
+
                 </a>
                 . Springer
               </p>
             </div>
 
             <div className="publi1">
+            <div>
+              <img
+                src="https://media.springernature.com/w316/springer-static/cover-hires/book/978-981-99-3687-8?as=webp"
+                alt=""
+                height="150px"
+              />
+            </div>
               <p>
                 5. <b>Manish Kumar Goyal</b>, Ecosystem Restoration: Towards
-                Sustainability and Resilient Development, 2023, ISBN:
-                978-981-19-0725-8. Springer
+                Sustainability and Resilient Development, 2023, Ihttps://doi.org/10.1007/978-981-99-3687-8
+
               </p>
             </div>
 
             <div className="publi1">
+            <div>
+              <img
+                src="https://media.springernature.com/w316/springer-static/cover-hires/book/978-981-19-0725-8?as=webp"
+                alt=""
+                height="150px"
+              />
+            </div>
               <p>
                 6. <b>Manish Kumar Goyal</b>, Hydro-Meteorological Extremes and
-                Disasters, October 2022, Pages 1-300. Springer
+                Disasters, October 2022, Pages 1-300. ISBN: 978-981-19-0725-8
+
+                 Springer
               </p>
             </div>
 
             <div className="publi1">
+            <div>
+              <img
+                src="https://www.wiley.com/storefront-pdp-assets/_next/image?url=https%3A%2F%2Fmedia.wiley.com%2Fproduct_data%2FcoverImage300%2F67%2F11194339%2F1119433967.jpg&w=640&q=75"
+                alt=""
+                height="150px"
+              />
+            </div>
               <p>
                 7. <b>Manish Kumar Goyal</b>, Sustainability: Fundamentals and
-                applications, June 2020, Volume 1. John Wiley & Sons
+                applications, June 2020, Volume 1. John Wiley & Sons. ISBN: 978-1-119-43396-5
+
               </p>
             </div>
 
             <div className="publi1">
+            <div>
+              <img
+                src="https://media.springernature.com/w316/springer-static/cover-hires/book/978-981-15-7679-9?as=webp"
+                alt=""
+                height="150px"
+              />
+            </div>
               <p>
                 8. <b>Manish Kumar Goyal</b>, Integrated Risk of Pandemic:
                 Covid-19 Impacts, Resilience and Recommendations, November 2020,
                 Pages 1-496,{" "}
                 <a href="https://doi.org/10.1007/978-981-15-7679-9">
-                  https://doi.org/10.1007/978-981-15-7679-9
+                https://doi.org/10.1007/978-981-15-7679-9
+
                 </a>
                 . Springer
               </p>
             </div>
 
             <div className="publi1">
+            <div>
+              <img
+                src="https://lh4.googleusercontent.com/Al3hDzrE4gl__894gziHf7zEy_f3yda5-QY15ScGDNpn3GJ_H8rsauAaRnxHcJnDoNhLyb-arWA0lD4ZxZdxsyKm5gUHsW0fFVQp8Tvnd0k=w1280"
+                alt=""
+                height="150px"
+              />
+            </div>
               <p>
                 9. <b>Manish Kumar Goyal</b>, Engineering Hydrology, January
-                2017, Volume 1, Pages 356, ISBN: 978-81-203-5243-8. PHI Learning
+                2017, Volume 1, Pages 356, ISBN: 978-81-203-5243-8
+                . PHI Learning
                 Pvt. Ltd., New Delhi, India
               </p>
             </div>
 
             <div className="publi1">
+            <div>
+              <img
+                src="data:image/jpeg;base64,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"
+                alt=""
+                height="150px"
+              />
+            </div>
               <p>
                 10. <b>Manish Kumar Goyal</b>, Fluid Mechanics and Hydraulic
                 Machines, January 2015, Volume 1, Pages 792, ISBN:
