@@ -1,52 +1,65 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom'; // Use react-router-dom Link for routing
+import { Link } from 'react-router-dom';
 import { AiOutlineMenu } from "react-icons/ai";
 import { RxCross1 } from "react-icons/rx";
 import "./navbar.css";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
-  const [stick, setStick] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const togglemenu = () => {
-    setStick(!stick);
+  const toggleMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', () => {
+    const handleScroll = () => {
       window.scrollY > 50 ? setSticky(true) : setSticky(false);
-    });
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
-    <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
-      <div className="head">
-        <img src="./mkg1.jpg" alt="" />
-        <p>Prof. Manish Kumar Goyal</p>
+    <nav className={`navbar ${sticky ? 'navbar--sticky' : ''}`}>
+      <div className="navbar__brand">
+        <img src="./image.png" alt="Professor Manish Kumar Goyal" className="navbar__logo" />
+        <p className="navbar__title">Prof. Manish Kumar Goyal</p>
       </div>
 
-      <ul className={stick ? '' : "hide-menu-icon"}>
-        <li>
-          <Link to="/" smooth={true} offset={0} duration={500}>Home</Link>
+      <ul className={`navbar__links ${mobileMenuOpen ? 'navbar__links--open' : ''}`}>
+        <li className="navbar__item">
+          <Link to="/" className="navbar__link">Home</Link>
         </li>
-        
-        {/* Link to Distinctions page */}
-        <li>
-          <Link to="/distinctions">Distinctions</Link>
+        <li className="navbar__item">
+          <Link to="/distinctions" className="navbar__link">Distinctions</Link>
         </li>
-
-        <li><Link to='/student' smooth={true} offset={-150} duration={500}>Student Supervision</Link></li>
-        <li><Link to='/publication' smooth={true} offset={-260} duration={500}>Publications</Link></li>
-        <li><Link to='research' smooth={true} offset={-260} duration={500}>Research</Link></li>
-        <li><Link to='teaching' smooth={true} offset={-260} duration={500}>Teaching</Link></li>
-        <li><Link to='/otherActivities' smooth={true} offset={-260} duration={500}>Other Activities</Link></li>
-        <li><Link to='positionsAvailable' smooth={true} offset={-260} duration={500}>Position Available</Link></li>
+        <li className="navbar__item">
+          <Link to="/student" className="navbar__link">Student Supervision</Link>
+        </li>
+        <li className="navbar__item">
+          <Link to="/publication" className="navbar__link">Publications</Link>
+        </li>
+        <li className="navbar__item">
+          <Link to="/research" className="navbar__link">Research</Link>
+        </li>
+        <li className="navbar__item">
+          <Link to="/teaching" className="navbar__link">Teaching</Link>
+        </li>
+        <li className="navbar__item">
+          <Link to="/activities" className="navbar__link">Other Activities</Link>
+        </li>
+        <li className="navbar__item">
+          <Link to="/positions" className="navbar__link">Position Available</Link>
+        </li>
       </ul>
 
-      {stick ? 
-        <RxCross1 className='menu-icon' size={30} onClick={togglemenu}/> :
-        <AiOutlineMenu className='menu-icon' size={30} onClick={togglemenu}/>
-      }
+      <button className="navbar__toggle" onClick={toggleMenu}>
+        {mobileMenuOpen ? 
+          <RxCross1 size={24} aria-label="Close menu" /> : 
+          <AiOutlineMenu size={24} aria-label="Open menu" />
+        }
+      </button>
     </nav>
   );
 };
