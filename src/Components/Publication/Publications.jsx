@@ -177,7 +177,7 @@ const Publications = () => {
             <div className="publi1">
             <div>
               <img
-                src="https://lh4.googleusercontent.com/Al3hDzrE4gl__894gziHf7zEy_f3yda5-QY15ScGDNpn3GJ_H8rsauAaRnxHcJnDoNhLyb-arWA0lD4ZxZdxsyKm5gUHsW0fFVQp8Tvnd0k=w1280"
+                src="./enghydro.jpg"
                 alt=""
                 height="150px"
               />
