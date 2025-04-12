@@ -1,95 +1,162 @@
+/* sup.css - Updated Version with Enhanced Visual Design */
+
 .supervision-container {
     max-width: 1200px;
-    margin: 180px auto 40px auto;
-    padding: 20px;
-    font-family: 'Arial', sans-serif;
-    color: #333;
-    
+    margin: 120px auto 40px auto;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #2d3748;
+    background-color: #f8fafc; /* Light blue-gray background */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
 }
 
 .supervision-header {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    padding: 25px;
+    background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .supervision-header h1 {
-    font-size: 2.5rem;
-    color: #2c3e50;
-    margin-bottom: 20px;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .supervision-section {
-    margin-bottom: 50px;
-    padding: 20px;
-    background-color: #c2d1cd;
-    border-radius: 8px;
+    margin-bottom: 60px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-left: 5px solid #2563eb;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.supervision-section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .section-title {
-    font-size: 23px;
-    color: rgb(111, 111, 236);
-    margin-bottom: 30px;
-    font-weight: bold;
+    font-size: 26px;
+    color: #1e40af; /* Darker blue for better contrast */
+    margin-bottom: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e2e8f0;
+    display: inline-block;
 }
 
 .student-card {
     margin-bottom: 25px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #edf2f7;
+    transition: all 0.3s ease;
 }
 
-.student-card:last-child {
-    border-bottom: none;
+.student-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #f7fafc;
+    border-color: #cbd5e0;
 }
 
 .student-name {
-    font-size: 20px;
-    color: #2c3e50;
-    margin-bottom: 10px;
+    font-size: 22px;
+    color: #1e40af;
+    margin-bottom: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.student-name:before {
+    content: "•";
+    color: #2563eb;
+    font-size: 30px;
+    margin-right: 10px;
 }
 
 .student-details {
     font-size: 17px;
-    line-height: 1.6;
-    color: #555;
+    line-height: 1.7;
+    color: #4a5568;
+    padding-left: 20px;
+    border-left: 3px solid #e2e8f0;
+    margin-left: 10px;
+}
+
+/* Project Staff specific styling */
+.supervision-section div > .student-card {
+    background-color: #f0f7ff;
+}
+
+.supervision-section div > .student-card:hover {
+    background-color: #e6f0ff;
 }
 
 /* Responsive Adjustments */
 @media screen and (max-width: 1024px) {
     .supervision-container {
         margin: 100px auto;
-        padding: 15px;
+        padding: 20px;
     }
-    
+
+    .supervision-header h1 {
+        font-size: 2.8rem;
+    }
+
     .section-title {
-        font-size: 24px;
+        font-size: 25px;
     }
-    
+
     .student-name {
-        font-size: 18px;
+        font-size: 20px;
     }
-    
+
     .student-details {
-        font-size: 15px;
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .supervision-container {
         margin: 80px auto;
-        padding: 10px;
+        padding: 15px;
     }
-    
+
+    .supervision-header {
+        padding: 20px;
+    }
+
+    .supervision-header h1 {
+        font-size: 2.4rem;
+    }
+
     .section-title {
-        font-size: 22px;
+        font-size: 23px;
     }
-    
+
     .student-name {
-        font-size: 17px;
+        font-size: 19px;
     }
-    
+
     .student-details {
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 
@@ -98,20 +165,25 @@
         margin: 60px auto;
         padding: 10px;
     }
-    
+
+    .supervision-header {
+        padding: 15px;
+    }
+
     .supervision-header h1 {
         font-size: 2rem;
     }
-    
+
     .section-title {
-        font-size: 20px;
+        font-size: 21px;
     }
-    
+
     .student-name {
-        font-size: 16px;
+        font-size: 18px;
     }
-    
+
     .student-details {
-        font-size: 13px;
+        font-size: 14px;
+        padding-left: 15px;
     }
 }
