@@ -1,9 +1,11 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    line-height: 1.6;
+    color: #222;
+    background-color: #fff;
 }
 
 /* Data Section */
@@ -12,147 +14,207 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 50px;
-    padding: 0 20px;
+    margin-bottom: 40px;
+    padding: 0 30px;
+    gap: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .data img {
-    height: 300px;
-    margin-bottom: 30px;
+    height: 280px;
+    border-radius: 0;
+    object-fit: cover;
+    border: 1px solid #eee;
 }
 
 .data1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.059);
-    padding: 8px;
+    padding: 0;
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
+    border-top: 2px solid #e1e1e1;
+    padding-top: 30px;
 }
 
 .data1 p {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    line-height: 1.5;
+    font-size: 17px;
 }
 
 .advanced {
     text-decoration: none;
-    color: black;
+    color: #0066cc;
 }
 
 .data2 {
-    display: flex;
-    flex-direction: column;
+    padding: 0;
     width: 100%;
-    max-width: 600px;
-    padding: 10px 20px;
+    max-width: 800px;
+    margin-bottom: 40px;
 }
 
-.data2 p {
+heading p {
     margin-bottom: 15px;
+    line-height: 1.5;
+    font-size: 24px;
 }
 
 .data3 {
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0 30px;
+    gap: 40px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .heading {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    color: #333;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.heading h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.heading h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: #2980b9;
 }
 
 .peter {
-    font-size: 28px;
-    color: rgb(111, 111, 236);
-    margin-top: 30px;
+    font-size: 24px;
+    color: #2980b9;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .peter1 {
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .peter1 p a {
-    color: rgb(1, 1, 247);
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.peter1 p a:hover {
+    text-decoration: underline;
 }
 
 .data4 {
-    font-size: 28px;
-    font-weight: bold;
-    margin-top: 30px;
-    color: rgb(111, 111, 236);
-    margin-bottom: 50px;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: #2980b9;
     text-align: center;
+    padding: 0 20px;
 }
 
 .data4 a {
-    color: rgb(111, 111, 236);
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.data4 a:hover {
+    text-decoration: underline;
 }
 
 .data5 {
-    font-size: 17px;
-    margin-bottom: 40px;
-    padding: 0 20px;
-    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+    padding: 0 30px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .data5 p {
-    margin-bottom: 15px;
+    margin-bottom: 18px;
+    text-align: left;
+    line-height: 1.6;
+    padding-left: 20px;
+    border-left: 3px solid #eee;
 }
 
 .sub {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 70px;
     padding: 0 20px;
 }
 
 .short {
-    color: black;
-    font-size: 25px;
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
 }
 
 .data6 {
-    background-color: rgb(226, 217, 217);
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    margin-bottom: 90px;
+    background-color: #f0f0f0;
+    padding-left: 40px;
+    margin-bottom: 70px;
     width: 100%;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    border-top: 2px solid #e1e1e1;
+    padding-top: 30px;
 }
 
 .data6 p {
-    color: black;
-    font-size: 19px;
-    margin-bottom: 15px;
+    color: #333;
+    font-size: 17px;
+    margin-bottom: 18px;
 }
 
 .data6 p a {
     color: black;
-    font-size: 19px;
+    text-decoration: none;
+}
+
+.data6 p a:hover {
+    text-decoration: underline;
 }
 
 .data7 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(228, 211, 189);
     flex-direction: column;
-    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5e9dc;
+    padding: 0 30px;
+    margin: 60px auto;
+    max-width: 800px;
+    width: 100%;
+    border-top: 2px solid #e1e1e1;
+    padding-top: 30px;
 }
 
 .data7 p {
-    font-size: 18px;
-    margin: 30px 10px;
+    font-size: 17px;
+    margin: 25px 0;
     text-align: center;
+    line-height: 1.6;
 }
 
 /* Responsive Styles */
@@ -160,30 +222,39 @@ body {
     .data {
         flex-direction: row;
         align-items: flex-start;
+        justify-content: center;
+        gap: 60px;
     }
 
     .data img {
+        width: 300px;
+        height: auto;
         margin-bottom: 0;
-        margin-right: 30px;
     }
 
-    .data1, .data2 {
-        width: 50%;
+    .data1 {
+        width: auto;
+        flex: 1;
+        padding-top: 0;
+        border-top: none;
     }
 
     .data3 {
         flex-direction: row;
         justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .data2 {
+        width: calc(50% - 30px);
+        margin-bottom: 0;
     }
 
     .sub {
         flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-
-    .data6 {
-        padding: 20px 50px;
+        justify-content: center;
+        gap: 30px;
     }
 }
 
@@ -193,30 +264,23 @@ body {
     }
 
     .data1, .data2 {
-        max-width: 800px;
+        max-width: none;
     }
 
     .data3 {
-        padding: 10px 45px;
+        padding: 0 50px;
     }
 
     .data4 {
-        margin-left: 170px;
-        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .data5 {
-        margin-left: 170px;
-        margin-right: 170px;
-        text-align: left;
-    }
-
-    .sub {
-        margin-right: 180px;
+        max-width: 1000px;
     }
 
     .data6 {
-        margin-left: 250px;
-        margin-right: 250px;
+        max-width: 900px;
     }
 }
