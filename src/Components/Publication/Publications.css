@@ -1,22 +1,23 @@
 /* ===== Publications Page Styling ===== */
+
 /* Base Styles */
 .pub {
-    margin: 150px auto 60px auto;
-    padding: 30px;
+    margin: 100px auto 40px auto;
+    padding: 20px;
     max-width: 1200px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.7;
+    line-height: 1.6;
     color: #333;
     background-color: #f8fafc;
 }
 
 /* Section Headers */
 .pub3 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     color: #3a5b96;
-    margin: 70px 0 40px 0;
+    margin: 50px 0 30px 0;
     font-weight: 600;
-    padding-bottom: 12px;
+    padding-bottom: 8px;
     border-bottom: 2px solid #e1e8f0;
     position: relative;
 }
@@ -26,7 +27,7 @@
     position: absolute;
     left: 0;
     bottom: -2px;
-    width: 120px;
+    width: 80px;
     height: 3px;
     background: rgb(111, 111, 236);
 }
@@ -35,44 +36,44 @@
 .publ1 {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 25px;
 }
 
 /* Individual Publication Cards */
 .publi1 {
     display: flex;
-    margin-bottom: 30px;
-    padding: 25px;
+    flex-direction: column;
+    margin-bottom: 25px;
+    padding: 20px;
     background-color: #ffffff;
     border-left: 4px solid #6f6fec;
     border-radius: 0 8px 8px 0;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.06);
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
 }
 
 /* Image Container */
 .publi1 > div {
-    flex-shrink: 0;
-    margin-right: 30px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 /* Publication Images */
 .publi1 img {
-    height: 150px;
-    width: auto;
-    max-width: 120px;
-    object-fit: cover;
+    height: auto;
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: contain;
     border-radius: 6px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 /* Text Content */
 .publi1 p {
     margin: 0;
-    font-size: 1.05rem;
+    font-size: 1rem;
     color: #444;
-    line-height: 1.8;
+    line-height: 1.7;
 }
 
 /* Link Styling */
@@ -82,6 +83,7 @@
     font-weight: 500;
     border-bottom: 1px solid rgba(0,0,0,0.15);
     transition: all 0.2s ease;
+    word-break: break-all;
 }
 
 .publi1 a:hover {
@@ -91,25 +93,21 @@
 
 /* Hover Effects */
 .publi1:hover {
-    transform: translateX(8px);
-    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-    background-color: #e8f0ff;
-}
-
-.publi1:hover img {
-    transform: scale(1.05);
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+    background-color: #f0f5ff;
 }
 
 /* Selected Publications List */
 .pub4 {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .pub4 p {
-    font-size: 1.1rem;
-    margin-bottom: 1.8rem;
-    line-height: 1.8;
-    padding-left: 20px;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+    padding-left: 15px;
     border-left: 3px solid #e1e8f0;
 }
 
@@ -119,6 +117,7 @@
     font-weight: 500;
     border-bottom: 1px solid rgba(0,0,0,0.15);
     transition: all 0.2s ease;
+    word-break: break-all;
 }
 
 .pub4 a:hover {
@@ -128,22 +127,19 @@
 
 /* Section Headers with Links */
 .pub1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 45px;
-    flex-wrap: wrap;
-    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    gap: 15px;
 }
 
 .pub1 a {
     color: #1a56a1;
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-decoration: none;
     font-weight: 600;
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
 }
 
 .pub1 a:hover {
@@ -154,125 +150,228 @@
 /* Patent Section */
 .pub1 + .pub4 {
     background-color: #f0f7f5;
-    padding: 25px;
+    padding: 20px;
     border-radius: 8px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
-/* ===== Responsive Design ===== */
-@media screen and (max-width: 1200px) {
-    .pub {
-        margin: 130px auto 50px auto;
-        padding: 25px;
-        max-width: 95%;
+/* ===== Patent Table Styling ===== */
+.table-container {
+    max-width: 100%;
+    margin: 30px 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px; /* Minimum width before scrolling kicks in */
+}
+
+thead {
+    background-color: #3498db;
+    color: white;
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: top;
+}
+
+tbody tr:hover {
+    background-color: #f1f9ff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(even):hover {
+    background-color: #f1f9ff;
+}
+
+.patent-no {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #2980b9;
+}
+
+.date {
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+.impact {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* ===== Mobile-First Table Styles ===== */
+@media (max-width: 767px) {
+    /* Stacked table layout for mobile */
+    table {
+        min-width: 100%;
+        display: block;
+    }
+    
+    thead {
+        display: none; /* Hide headers on mobile */
+    }
+    
+    tbody {
+        display: block;
+        width: 100%;
+    }
+    
+    tr {
+        display: block;
+        margin-bottom: 20px;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        padding: 10px;
+        background-color: white;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    td {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+        text-align: left;
+    }
+    
+    td:last-child {
+        border-bottom: none;
+    }
+    
+    /* Add data labels */
+    td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        color: #3498db;
+        margin-bottom: 5px;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+    }
+    
+    /* Remove alternating row colors on mobile */
+    tbody tr:nth-child(even) {
+        background-color: white;
+    }
+    
+    .table-container {
+        box-shadow: none;
+        background-color: transparent;
+        overflow-x: visible;
+    }
+    
+    /* Adjust patent specific styles */
+    .patent-no {
+        font-size: 1rem;
+    }
+    
+    .date, .impact {
+        font-size: 1rem;
     }
 }
 
-@media screen and (max-width: 1024px) {
+/* ===== Responsive Design ===== */
+@media screen and (min-width: 576px) {
     .pub {
-        margin: 110px auto 40px auto;
-        padding: 20px;
+        padding: 25px;
     }
     
     .pub3 {
         font-size: 2rem;
-        margin-bottom: 35px;
+        margin: 60px 0 35px 0;
     }
     
     .publi1 {
-        padding: 20px;
-    }
-    
-    .publi1 p {
-        font-size: 1rem;
-    }
-    
-    .pub4 p {
-        font-size: 1.05rem;
-        margin-bottom: 1.6rem;
-    }
-    
-    .publi1 img {
-        height: 140px;
-        margin-right: 25px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .pub {
-        margin: 90px auto 30px auto;
-        padding: 15px;
-    }
-    
-    .pub3 {
-        font-size: 1.8rem;
-        margin-bottom: 30px;
-    }
-    
-    .pub1 {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 15px;
-    }
-    
-    .publi1 {
-        padding: 18px;
-        flex-direction: column;
+        flex-direction: row;
+        padding: 25px;
     }
     
     .publi1 > div {
-        margin-right: 0;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-    
-    .publi1 img {
-        height: 180px;
-        max-width: 150px;
-        margin: 0 auto;
-    }
-    
-    .publi1 p {
-        font-size: 0.95rem;
-    }
-    
-    .pub4 p {
-        font-size: 1rem;
-        margin-bottom: 1.4rem;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .pub {
-        margin: 80px auto 25px auto;
-        padding: 12px;
-    }
-    
-    .pub3 {
-        font-size: 1.6rem;
-        margin-bottom: 25px;
-    }
-    
-    .publi1 {
-        padding: 16px;
-    }
-    
-    .publi1 p {
-        font-size: 0.9rem;
-    }
-    
-    .pub4 p {
-        font-size: 0.95rem;
-        margin-bottom: 1.2rem;
+        flex-shrink: 0;
+        margin-right: 25px;
+        margin-bottom: 0;
+        text-align: left;
     }
     
     .publi1 img {
         height: 150px;
+        width: auto;
         max-width: 120px;
     }
     
+    .publi1 p {
+        font-size: 1.05rem;
+    }
+    
+    .pub4 p {
+        font-size: 1.05rem;
+    }
+    
+    .pub1 {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
     .pub1 a {
-        font-size: 1rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pub {
+        margin: 120px auto 50px auto;
+        padding: 30px;
+    }
+    
+    .pub3 {
+        font-size: 2.2rem;
+        margin: 70px 0 40px 0;
+    }
+    
+    .pub3::after {
+        width: 120px;
+    }
+    
+    .publi1 {
+        padding: 25px;
+    }
+    
+    .publi1 p {
+        font-size: 1.1rem;
+    }
+    
+    .pub4 p {
+        font-size: 1.1rem;
+    }
+    
+    /* Adjust table styling for larger screens */
+    .table-container {
+        margin: 40px 0;
+    }
+    
+    th, td {
+        padding: 15px;
     }
 }
 
@@ -287,10 +386,17 @@
 
 /* Adjust spacing between sections */
 .pub0, .publ1, .pub4 {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 /* Add some padding to the main container */
 .pub > div:first-child {
-    padding-top: 20px;
+    padding-top: 15px;
+}
+
+/* Better line breaks for long URLs */
+.publi1 p, .pub4 p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
 }
