@@ -41,12 +41,21 @@ const Publications = () => {
             </p>
           </div> */}
           <div className="publ1">
+            
             <div className="publi1">
-
+            <div>
+              <img
+                src="https://media.springernature.com/w316/springer-static/cover-hires/book/978-3-031-84819-3?as=webp"
+                alt=""
+                height="150px"
+              />
+            </div>
               <p>
                 1. <b>Manish Kumar Goyal</b>, Key Biodiversity Areas:
                 Technology–policy Interface for Combating Forest Loss and Fires,
-                2024, In Press, ISBN: 978-3-031-72014-7. Springer
+                2024, ISBN: 978-3-031-72014-7.<a href="https://link.springer.com/book/9783031848193">
+                https://link.springer.com/book/9783031848193
+                </a> Springer
               </p>
             </div>
 
@@ -177,8 +186,7 @@ const Publications = () => {
             <div className="publi1">
             <div>
               <img
-                src="./hydro.jpg"
-                alt=""
+                src="./enghydro.jpg"
                 height="150px"
               />
             </div>
@@ -207,15 +215,65 @@ const Publications = () => {
           </div>
 
           <div className="pub1">
-            <div>
+          <div>
               <p className="pub3">Patent</p>
             </div>
-            <div>
-              <p>
-                A METHOD FOR MEASURING HYDROLOGICAL RESILIENCE OF A REGION IN
-                RESPONSE TO WARMING SHIFTS (patent filed)
-              </p>
-            </div>
+            <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Sl. No.</th>
+                    <th>Authors</th>
+                    <th>Patent Title</th>
+                    <th>Patent No.</th>
+                    <th>Date</th>
+                    <th>Impact on Industries/Society</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Vijay Jain, Utkarsh Yadav, Manish Kumar Goyal</td>
+                    <td>A System and a Method for Monitoring Water Quality of a Wetland</td>
+                    <td class="patent-no">202521028988</td>
+                    <td class="date">Filed, 2025</td>
+                    <td class="impact">This patented technique provides near real-time monitoring of water quality for wetlands through image processing, specifically relating to a system and method for assessing water quality indices of wetlands using image processing.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Vijay Jain, Utkarsh Yadav, Manish Kumar Goyal</td>
+                    <td>Method and System for Risk Assessment and Management for a Wetland</td>
+                    <td class="patent-no">202521025858</td>
+                    <td class="date">Filed, 2025</td>
+                    <td class="impact">This technique focuses on risk assessment and management for wetlands by analyzing historical precipitation data, climate oscillation data, water quality indices, land and built-up area values to determine risks and generate forthcoming risk assessment reports for wetland ecosystems.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Vijay Jain, Sarthak Agarwal, Manish Kumar Goyal</td>
+                    <td>System and Method for Assessing a Flood Risk</td>
+                    <td class="patent-no">202521021350</td>
+                    <td class="date">Filed, 2025</td>
+                    <td class="impact">This technique assesses flood risk by collecting multi-spectral data (satellite, historic, ecological, topography, demographic, and infrastructure data), determining hazard, vulnerability, and exposure parameters, correlating these parameters to estimate risk, generating flood risk scores, creating real-time representations, and classifying them into levels based on deviation from predefined thresholds.</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Shivam Singh, Manish Kumar Goyal</td>
+                    <td>Method and system for determining spatiotemporal characteristics and predicting the state of Atmospheric Rivers (AR)</td>
+                    <td class="patent-no">202421010646</td>
+                    <td class="date">Filed, 2024</td>
+                    <td class="impact">This technique predicts atmospheric rivers, enabling industries to optimize operations, mitigate weather-related risks, enhance resource efficiency, and reduce economic losses. It provides timely forecasts to improve public safety and resilience, helping communities prepare for potential flooding and associated hazards.</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Manish Kumar Goyal, Jhilam Sinha, and Jew Das</td>
+                    <td>A method for measuring hydrological resilience of a region in response to warming shifts</td>
+                    <td class="patent-no">201921037336</td>
+                    <td class="date">Filed, 2021</td>
+                    <td class="impact">This technique measures hydrological resilience, helping industries adapt to warming shifts by identifying vulnerabilities and optimizing resource use to enhance sustainability and efficiency. It promotes awareness and informed decision-making, fostering community preparedness and long-term resilience in managing vital water resources.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
           </div>
         </div>
         <div className="pub1">
