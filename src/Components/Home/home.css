@@ -105,13 +105,13 @@ heading p {
 }
 
 .peter1 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .peter1 p a {
     color: #0066cc;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .peter1 p a:hover {
